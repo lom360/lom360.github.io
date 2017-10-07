@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    color: #b19665;
 }
 
 ul {
@@ -24,7 +25,22 @@ li {
     float: right;
 }
 
-.box {
+
+/*Universal Ends*/
+
+
+/*Navigation*/
+.main-header {
+    height: 100px;
+    width: 100%;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(bottom left, #1e1c1d, #9e978f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom left, #1e1c1d, #9e978f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom left, #1e1c1d, #9e978f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top right, #1e1c1d, #9e978f); /* Standard syntax */
+}
+
+.logo {
     height: 50px;
     width: 50px;
     border-radius: 40px;
@@ -33,43 +49,49 @@ li {
     top: 7px;
     left: 15px;
 }
-/*Universal Ends*/
 
-
-/*Navigation*/
-.main-header {
-    height: 100px;
-    width: 100%;
-    bbackground: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, #1dbeb8, #37b9e9); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #1dbeb8, #37b9e9); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #1dbeb8, #37b9e9); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom left, #1dbeb8, #37b9e9); /* Standard syntax (must be
+.page-title {
+    margin: 10px 0 10px 0;
+    display: inline-block;
+    position: absolute;
+    left: 36%;
+/*    color: #1e1c1d;*/
+/*    color: #c79044;*/
+    font-family: 'Goudy Old Style';
 }
 
 .top-header {
     height: 65%;
-/*    border-bottom: 1px solid rgb(255,204,213);*/
 }
 
 .bot-header {
     height: 45%;
-/*    background-color: #f1f6fb;*/
     
 }
 
 .nav-bar {
     position: relative;
     top: 7px;
-    left: 15px;
+    left: 650px;
+    font-family: 'Goudy Old Style';
 }
 /*Navigation Ends*/
 
 
 /*Hero*/
+.hero-main {
+    height: 400px;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #1e1c1d, #9e978f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #1e1c1d, #9e978f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #1e1c1d, #9e978f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #1e1c1d, #9e978f); /* Standard syntax */
+}
+
 .hero {
     background-image: url('../images/hero2.jpg');
     background-position: bottom;
+    z-index: 2;
     height: 350px;
     padding-top: 10px;
 }
