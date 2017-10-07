@@ -1,0 +1,40 @@
+/*Universal*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    display: block;
+}
+
+li {
+    margin: 5px;
+    display: inline-block;
+    list-style: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.box {
+    height: 75px;
+    width: 75px;
+    border-radius: 40px;
+    background-color: rgb(255,204,213);
+}
+/*Universal Ends*/
+
+
+/*Navigation*/
+.main-header {
+    height: 120px;
+    background-color: rgb(241,246,251);
+}
+/*Navigation Ends*/
