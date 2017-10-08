@@ -5,6 +5,8 @@ body {
     color: #b19665;
 }
 
+
+
 ul {
     margin: 0;
     padding: 0;
@@ -25,6 +27,9 @@ li {
     float: right;
 }
 
+.gradient-background{
+    
+}
 
 /*Universal Ends*/
 
@@ -33,11 +38,11 @@ li {
 .main-header {
     height: 100px;
     width: 100%;
-    background: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(bottom left, #1e1c1d, #9e978f); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom left, #1e1c1d, #9e978f); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom left, #1e1c1d, #9e978f); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to top right, #1e1c1d, #9e978f); /* Standard syntax */
+    background: red;  For browsers that do not support gradients     
+    background: -webkit-linear-gradient(bottom left, #1e1c1d, #9e978f);  /*For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom left, #1e1c1d, #9e978f);  /*For Opera 11.1 to 12.0*/ 
+    background: -moz-linear-gradient(bottom left, #1e1c1d, #9e978f);  /*For Firefox 3.6 to 15*/ 
+    background: linear-gradient(to top right, #1e1c1d, #9e978f);  /*Standard syntax */
 }
 
 .logo {
@@ -55,9 +60,8 @@ li {
     display: inline-block;
     position: absolute;
     left: 36%;
-/*    color: #1e1c1d;*/
-/*    color: #c79044;*/
     font-family: 'Goudy Old Style';
+    font-weight: 900;
 }
 
 .top-header {
@@ -74,6 +78,7 @@ li {
     top: 7px;
     left: 650px;
     font-family: 'Goudy Old Style';
+    display: inline-block;
 }
 /*Navigation Ends*/
 
@@ -81,11 +86,11 @@ li {
 /*Hero*/
 .hero-main {
     height: 400px;
-    background: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left, #1e1c1d, #9e978f); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #1e1c1d, #9e978f); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #1e1c1d, #9e978f); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #1e1c1d, #9e978f); /* Standard syntax */
+    background: red;  /* For browsers that do not support gradients     */
+    background: -webkit-linear-gradient(left, #1e1c1d, #9e978f);  /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #1e1c1d, #9e978f);  /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #1e1c1d, #9e978f);  /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #1e1c1d, #9e978f);  /* Standard syntax */
 }
 
 .hero {
@@ -96,3 +101,27 @@ li {
     padding-top: 10px;
 }
 /*Hero Ends*/
+
+
+
+/*Main*/
+main {
+    height: 500px;
+    width: 100%;
+}
+.container-main {
+    height: 500px;
+    width: 50%;
+    border: 1px solid blue;
+}
+/*Main Ends*/
+
+
+
+
+
+
+
+
+
+
