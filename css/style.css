@@ -1,11 +1,14 @@
 /*Universal*/
-body {
+* {
     margin: 0;
     padding: 0;
     color: #b19665;
 }
 
+a {
 
+    text-decoration: none;
+}
 
 ul {
     margin: 0;
@@ -27,8 +30,16 @@ li {
     float: right;
 }
 
-.gradient-background{
-    
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.center {
+    text-align: center;
 }
 
 /*Universal Ends*/
@@ -50,7 +61,7 @@ li {
     width: 50px;
     border-radius: 40px;
     background-color: rgb(255,204,213);
-    position: relative;
+    position: absolute;
     top: 7px;
     left: 15px;
 }
@@ -58,8 +69,8 @@ li {
 .page-title {
     margin: 10px 0 10px 0;
     display: inline-block;
-    position: absolute;
-    left: 36%;
+/*    position: absolute;*/
+/*    left: 36%;*/
     font-family: 'Goudy Old Style';
     font-weight: 900;
 }
@@ -70,13 +81,11 @@ li {
 
 .bot-header {
     height: 45%;
-    
 }
 
 .nav-bar {
-    position: relative;
-    top: 7px;
-    left: 650px;
+/*    position: relative;*/
+/*    left: 650px;*/
     font-family: 'Goudy Old Style';
     display: inline-block;
 }
@@ -94,11 +103,36 @@ li {
 }
 
 .hero {
+    height: 350px;
+    padding-top: 10px;
     background-image: url('../images/hero2.jpg');
     background-position: bottom;
     z-index: 2;
-    height: 350px;
-    padding-top: 10px;
+   
+}
+
+.hero-content, .hero-content h2, .hero-content p, span {
+    display: inline-block;
+    text-align: center;
+    color: #31312f;
+}
+
+.hero-content {
+    position: absolute;
+    top: 274px;
+    left: 515px;
+    
+}
+
+span {
+    text-indent: 12px;
+}
+
+.hero-content p {
+    position: relative;
+    top: 36px;
+    right: 235px;
+    font-weight: 900;
 }
 /*Hero Ends*/
 
@@ -111,7 +145,7 @@ main {
 }
 .container-main {
     height: 500px;
-    width: 50%;
+    width: 100%;
     border: 1px solid blue;
 }
 /*Main Ends*/
