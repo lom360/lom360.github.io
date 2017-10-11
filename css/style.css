@@ -1,172 +1,71 @@
-/*Universal*/
+/*Universal Start*/
 * {
     margin: 0;
     padding: 0;
-    color: #b19665;
-}
-
-a {
-
-    text-decoration: none;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    display: block;
+    color: #f2f2f2;
+    font-weight: 900;
 }
 
 li {
-    margin: 5px;
-    display: inline-block;
-    list-style: none;
+    text-decoration: none;
 }
 
-.left {
-    float: left;
+.parent {
+    position: relative;
 }
-
-.right {
-    float: right;
-}
-
-.clear-left {
-    clear: left;
-}
-
-.clear-right {
-    clear: right;
-}
-
-.center {
-    text-align: center;
-}
-
 /*Universal Ends*/
 
 
-/*Navigation*/
-.main-header {
+
+/*Header Starts*/
+Header{
     height: 100px;
     width: 100%;
-    background: red;  For browsers that do not support gradients     
-    background: -webkit-linear-gradient(bottom left, #1e1c1d, #9e978f);  /*For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom left, #1e1c1d, #9e978f);  /*For Opera 11.1 to 12.0*/ 
-    background: -moz-linear-gradient(bottom left, #1e1c1d, #9e978f);  /*For Firefox 3.6 to 15*/ 
-    background: linear-gradient(to top right, #1e1c1d, #9e978f);  /*Standard syntax */
+    background-color: rgb(154,238,249);
+}
+.top-header {
+    height: 65%;
 }
 
 .logo {
     height: 50px;
     width: 50px;
-    border-radius: 40px;
-    background-color: rgb(255,204,213);
+    background-color: #ffb4dd;
+    border-radius: 50px;
     position: absolute;
     top: 7px;
-    left: 15px;
+    left: 10px;
 }
 
-.page-title {
-    margin: 10px 0 10px 0;
-    display: inline-block;
-/*    position: absolute;*/
-/*    left: 36%;*/
-    font-family: 'Goudy Old Style';
-    font-weight: 900;
-}
-
-.top-header {
-    height: 65%;
+.page-title{
+    text-align: center;
+    position: relative;
+    top: 10px;
 }
 
 .bot-header {
-    height: 45%;
+    height: 35%;
 }
 
 .nav-bar {
-/*    position: relative;*/
-/*    left: 650px;*/
-    font-family: 'Goudy Old Style';
-    display: inline-block;
-}
-/*Navigation Ends*/
-
-
-/*Hero*/
-.hero-main {
-    height: 400px;
-    background: red;  /* For browsers that do not support gradients     */
-    background: -webkit-linear-gradient(left, #1e1c1d, #9e978f);  /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #1e1c1d, #9e978f);  /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #1e1c1d, #9e978f);  /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #1e1c1d, #9e978f);  /* Standard syntax */
-}
-
-.hero {
-    height: 350px;
-    padding-top: 10px;
-    background-image: url('../images/hero2.jpg');
-    background-position: bottom;
-    z-index: 2;
-   
-}
-
-.hero-content, .hero-content h2, .hero-content p, span {
-    display: inline-block;
-    text-align: center;
-    color: #31312f;
-}
-
-.hero-content {
-    position: absolute;
-    top: 274px;
-    left: 515px;
-    
-}
-
-span {
-    text-indent: 12px;
-}
-
-.hero-content p {
+    margin: 0 41% 0 41%;
     position: relative;
-    top: 36px;
-    right: 235px;
-    font-weight: 900;
+    bottom: 10px;
+}
+
+.nav-link {
+    padding: 10px;
+    float: left;
+    list-style: none;
+}
+/*Header Ends*/
+
+
+/*Hero Starts*/
+.hero {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/desktop3.jpg');
+    background-repeat: none;
 }
 /*Hero Ends*/
-
-
-
-/*Main*/
-main, .container-main{
-    height: 500px;
-}
-
-.container-main {
-    border: 1px solid blue;
-    padding: 50px 0;
-}
-
-.row {
-    text-align: center;
-}
-
-.column {
-    border: 1px solid #ececec;
-    width: 46%;
-}
-
-
-
-/*Main Ends*/
-
-
-
-
-
-
-
-
-
-
