@@ -63,7 +63,8 @@ Header{
 }
 
 .nav-bar {
-    margin: 0 30% 0 42%;
+    height: 45px;
+    margin: 0 32% 0 39%;
     position: relative;
     bottom: 10px;
 }
@@ -71,6 +72,7 @@ Header{
 .nav-link {
     padding: 10px;
     float: left;
+    font-size: 20px;
     list-style: none;
 }
 
@@ -89,5 +91,15 @@ Header{
     width: 100%;
     background-image: url('../images/desktop3.jpg');
     background-repeat: none;
+}
+
+.hero-content h1{
+    color: #a6b7c7;
+    position: absolute;
+    top: 73%;
+    left: 20%;
+    letter-spacing: 58px;
+    font-size: 50px;
+    text-shadow: 6px 3px 7px #98a1aa;
 }
 /*Hero Ends*/
