@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
 /*Universal Start*/
 * {
     margin: 0;
     padding: 0;
-    color: #f2f2f2;
-    font-weight: 900;
+    color: #ffffff;
+/*    font-family: 'PT Sans Narrow', sans-serif;*/
+    font-family: 'Exo', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 li {
@@ -21,20 +29,27 @@ li {
 Header{
     height: 100px;
     width: 100%;
-    background-color: rgb(154,238,249);
+    background-color: rgb(149,199,244);
 }
 .top-header {
     height: 65%;
 }
 
-.logo {
-    height: 50px;
-    width: 50px;
-    background-color: #ffb4dd;
-    border-radius: 50px;
+.back-logo {
+    background-color: #ffffff;
+    height: 33px;
+    width: 28px;
     position: absolute;
-    top: 7px;
-    left: 10px;
+    top: 10px;
+    left: 15px;
+}
+
+.fa-html5{
+/*    color: #ffebed;*/
+    color: #ffaed5;
+    position: absolute;
+    top: 5px;
+    left: 8px;
 }
 
 .page-title{
@@ -48,7 +63,7 @@ Header{
 }
 
 .nav-bar {
-    margin: 0 41% 0 41%;
+    margin: 0 30% 0 42%;
     position: relative;
     bottom: 10px;
 }
@@ -58,12 +73,19 @@ Header{
     float: left;
     list-style: none;
 }
+
+.nav-link a:hover {
+/*    color: #ffebed;*/
+    color: #ffaed5;
+    border-bottom: 5px solid #ffaed5;
+    font-weight: 900;
+}
 /*Header Ends*/
 
 
 /*Hero Starts*/
 .hero {
-    height: 600px;
+    height: 530px;
     width: 100%;
     background-image: url('../images/desktop3.jpg');
     background-repeat: none;
