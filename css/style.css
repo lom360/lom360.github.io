@@ -140,9 +140,17 @@ Header{
 
 .inner-box h3 {
     margin: 35px 0 5px 0;
-    background-color: rgba(149,199,244,0.8);
 }
 
+.outter-box0 {
+    height: 10%;
+    width: 91%;
+    margin: 20px 0 0 49px;
+}
+
+.inner-box h3, .outter-box0 {
+    background-color: rgba(149,199,244,0.8);
+}
 .outter-box1, .outter-box2 {
     height: 90%;
     width: 42%;
@@ -156,22 +164,17 @@ Header{
 }
 
 .rows {
-    height: 2000px;
-}
-
-.top-row {
-    height: 40%;
-    padding: 0 80px;
+    height: 900px;
+    padding: 0 70px;
 }
 
 .row1-title {
-    height: 10%;
     position: relative;
-    top: 30px;
+    top: 15px;
 }
 
 .inner-box {
-    height: 25%;
+    height: 20%;
 }
 
 /*Main Ends*/
