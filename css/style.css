@@ -10,6 +10,10 @@
     font-family: 'Exo', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -20,6 +24,10 @@ li {
 
 .parent {
     position: relative;
+}
+
+.left {
+    float: left;
 }
 /*Universal Ends*/
 
@@ -33,28 +41,43 @@ li {
 Header{
     height: 100px;
     width: 100%;
-/*    padding: 1px;*/
-    background-color: rgb(149,199,244);
+    
 }
 .top-header {
     height: 65%;
+    background-color: rgba(149,199,244,0.8);
+}
+
+.bot-header {
+    display: flex;
+    height: 35%;
+    width: 100%;
+    background-color: rgba(149,199,244,0.8);
 }
 
 .back-logo {
     background-color: #ffffff;
-    height: 33px;
-    width: 28px;
+    height: 45px;
+    width: 45px;
     position: absolute;
-    top: 10px;
-    left: 15px;
+    top: 6px;
+    left: 10px;
+    border-radius: 50px;
 }
 
-.fa-html5{
-/*    color: #ffebed;*/
+/*
+.home-link {
+    height: 100px;
+    width: 100px;
+}
+*/
+
+.fa-empire{
     color: #ffaed5;
     position: absolute;
     top: 5px;
     left: 8px;
+    z-index: 3;
 }
 
 .page-title{
@@ -63,12 +86,10 @@ Header{
     top: 10px;
 }
 
-.bot-header {
-    height: 35%;
-}
 
 .nav-bar {
-    height: 45px;
+    display: flex;
+    height: 100%;
     margin: 0 32% 0 39%;
     position: relative;
     bottom: 10px;
@@ -76,7 +97,6 @@ Header{
 
 .nav-link {
     padding: 10px;
-    float: left;
     font-size: 20px;
     list-style: none;
 }
@@ -112,44 +132,46 @@ Header{
 
 
 /*Main Starts*/
-.top-row h1 {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    margin-bottom: 30px;
-    text-transform: capitalize;
-}
-
 .inner-box img{
-    height: 100px;
-    width: 100px;
-    margin: 10px;
-    float: left;
-}
-.top-row h1, .inner-box h3 {
-    text-align: center;
-    position: relative;
-    top: 20px;
-    text-decoration: underline;
+    height: 75px;
+    width: 75px;
+    margin-right: 7px;
 }
 
-.inner-box p {
-    margin-top: 20px;
-}
-main {
-    height: 925px;
-    padding: 30px 50px;
-    color: #000000;
-    font-family: 'Courier New', courier, sans-serif;
+.inner-box h3 {
+    margin: 35px 0 5px 0;
+    background-color: rgba(149,199,244,0.8);
 }
 
 .outter-box1, .outter-box2 {
-    display: inline-block;
-    width: 45%;
-    padding: 20px 30px;
+    height: 90%;
+    width: 42%;
+    margin: 10px 50px;
     float: left;
 }
 
-.inner-box {
-    margin: 50px 20px;
-    line-height: 25px;
+.row1-title, .inner-box h3 {
+    text-decoration: underline;
+    text-transform: capitalize;
 }
+
+.rows {
+    height: 2000px;
+}
+
+.top-row {
+    height: 40%;
+    padding: 0 80px;
+}
+
+.row1-title {
+    height: 10%;
+    position: relative;
+    top: 30px;
+}
+
+.inner-box {
+    height: 25%;
+}
+
 /*Main Ends*/
