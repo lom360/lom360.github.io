@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    text-decoration: none;
+}
+
 li {
     text-decoration: none;
 }
@@ -115,7 +119,7 @@ Header{
     height: 530px;
     width: 100%;
     background-image: url('../images/desktop3.jpg');
-    background-repeat: none;
+    margin-bottom: 75px;
 }
 
 .hero-content h1{
@@ -140,21 +144,22 @@ Header{
 
 .inner-box h3 {
     margin: 35px 0 5px 0;
+    background-color: rgba(149,199,244,0.8);
 }
 
 .outter-box0 {
-    height: 10%;
+    height: 6%;
     width: 91%;
     margin: 20px 0 0 49px;
 }
 
 .inner-box h3, .outter-box0 {
-    background-color: rgba(149,199,244,0.8);
+/*    background-color: rgba(149,199,244,0.8);*/
 }
 .outter-box1, .outter-box2 {
     height: 90%;
     width: 42%;
-    margin: 10px 50px;
+    margin: 0px 50px;
     float: left;
 }
 
@@ -170,7 +175,7 @@ Header{
 
 .row1-title {
     position: relative;
-    top: 15px;
+    top: 5px;
 }
 
 .inner-box {
@@ -178,3 +183,91 @@ Header{
 }
 
 /*Main Ends*/
+
+
+
+/*Section Starts*/
+.section2 {
+    height: 600px;
+    padding-top: 15px;
+    background-color: rgba(255,235,237,0.7);
+}
+
+.container {
+    height: 100%;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 15px;
+}
+
+.section-title {
+    margin: 30px 0;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.section-rows {
+    height: 91%;
+}
+
+.left-content, .right-content{
+    height: 80%;
+    width: 45%;
+    margin: 20px 2%;
+    float: left;
+    background-color: rgba(149,199,244,0.7);
+    border-radius: 35px;
+}
+
+.left-content div, .right-content div{
+    margin: 10px 30px;
+    justify-content: center;
+}
+
+.section-img {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    position: relative;
+    left: 145px;
+}
+
+.button {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    color: black;
+    background-color: #ffaed5;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 7px;
+    position: relative;
+    left: 130px;
+    top: 20px;
+}
+
+.left-content .button {
+    position: relative;
+    left: 130px;
+    top: 65px;
+}
+
+.right-content .button {
+    position: relative;
+    left: 130px;
+    top: 20px;
+}
+
+.button h4{
+    position: relative;
+    top: 9px;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: rgb(255, 204, 209);
+}
+/*Section Ends*/
+
