@@ -267,12 +267,40 @@ footer{
 }
 
 .social-media-bar {
-    float: right;
+    height: 75px;
+    width: 300px;
+    position: absolute;
+    right: 0;
 }
 
 .items {
     display: inline-block;
-    margin: 10px 10px;
+    width: 22%;
+    padding: 9px;
+    color: white;
+    text-align: center;
+    float: right;
+    clear: right;
+}
+
+.items:hover {
+    width: 40%;
+}
+
+.social-links:first-child .items{
+    background-color: #3c5a99;
+}
+
+.social-links:nth-child(2) .items{
+    background-color: #1da1f2;
+}
+
+.social-links:nth-child(3) .items{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( top right, #5440d7,#ab43a8, #e1102d,#fec463); /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(right top,#5440d7, #ab43a8,#e1102d,#fec463);/* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(top right,#5440d7,#ab43a8,#e1102d,#fec463);/* For Fx 3.6 to 15 */
+    background: -moz-linear-gradient(top right, #5440d7,#ab43a8,#e1102d,#fec463); 
 }
 
 .copy-right {
