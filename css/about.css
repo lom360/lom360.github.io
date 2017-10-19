@@ -1,0 +1,26 @@
+/*Main Starts*/
+main{
+    height: 500px;
+}
+
+.bio {
+    height: 90%;
+    width: 45%;
+    padding: 25px 100px;
+    margin: 0 auto;
+}
+
+.bio img {
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    border-radius: 50%;
+    float: left;
+}
+
+.bio p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+/*Main Ends*/
