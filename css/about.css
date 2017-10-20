@@ -1,6 +1,6 @@
 /*Main Starts*/
 main{
-    height: 500px;
+    height: 550px;
 }
 
 .bio {
@@ -20,7 +20,7 @@ main{
 
 .bio p {
     margin: 20px 0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
 }
 /*Main Ends*/
