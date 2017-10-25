@@ -27,23 +27,29 @@ main{
 
 /*Interest Starts*/
 .section1 {
-    height: 900px;
+    height: 1000px;
     margin: 5px 0;
+/*    background-color: rgba(255,235,237,0.7);*/
 }
 
 .section1-title {
     height: 50px;
-    margin: 10px 0;
+    margin: 10px 0 60px 0;
     text-decoration: underline;
+    position: relative;
+    top: 25px
 }
 
-.section1-content1 {
+.section-content1, .section-content2 {
+    border-top: 2px solid rgba(255,174,213, .3);
+    border-bottom: 2px solid rgba(255,174,213, .3);
     display: flex;
-    height: 500px;
+    height: 400px;
     width: 1600px;
 }
 
 .section-video {
+    border-right: 2px solid rgba(255,174,213,0.3);
     width: 50%;
 }
 
@@ -52,10 +58,14 @@ iframe {
     width: 100%;
 }
 
-.section-info {
+
+.section-info1, .section-info2 {
+    color: white;
     height: 100%;
     width: 50%;
-    background: linear-gradient(rgba(255,174,213,0.7),
+}
+.section-info1 {
+    background: linear-gradient(rgba(29,161,242,0.7),
         rgba(255,174,213,0.7)),
         url('../images/shatter-me.jpg');
     -webkit-background-size: cover;
@@ -65,14 +75,19 @@ iframe {
     position: relative;
 }
 
-/*
-.color-layer {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255,174,213,0.7);
-    position: absolute;
+.section-info2 {
+    background: linear-gradient(rgba(255,174,213,0.7),
+        rgba(29,161,242,0.7)),
+        url('../images/alone.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
 }
-*/
+
+
+
 /*Interest Ends*/
 
 
