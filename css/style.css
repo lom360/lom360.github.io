@@ -101,9 +101,9 @@ nav {
 
 /*Hero Starts*/
 .hero {
-    height: 530px;
+    height: 700px;
     width: 100%;
-    background-image: url('../images/desktop3.jpg');
+    background-image: url('../images/lake-view.jpg');
     margin-bottom: 30px;
 }
 
