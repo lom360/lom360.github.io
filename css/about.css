@@ -40,7 +40,7 @@ main{
     top: 25px
 }
 
-.section-content1, .section-content2 {
+.section1-content1, .section1-content2 {
     border-top: 2px solid rgba(255,174,213, .3);
     border-bottom: 2px solid rgba(255,174,213, .3);
     display: flex;
@@ -58,15 +58,14 @@ iframe {
     width: 100%;
 }
 
-.section-info1, .section-info2 {
+.section1-info1, .section1-info2, .section2-info1, .section2-info2 {
     height: 100%;
     width: 50%;
     padding: 0 120px;
     color: white;
-/*    text-align: center;*/
 }
 
-.section-info1 {
+.section1-info1 {
     background: linear-gradient(rgba(29,161,242,0.7),
         rgba(255,174,213,0.7)),
         url('../images/shatter-me.jpg');
@@ -77,7 +76,7 @@ iframe {
     position: relative;
 }
 
-.section-info2 {
+.section1-info2 {
     background: linear-gradient(rgba(255,174,213,0.7),
         rgba(29,161,242,0.7)),
         url('../images/alone.jpg');
@@ -94,10 +93,6 @@ iframe {
     margin-top: 150px;
     margin-right: 300px;
     float: right;
-}
-
-.pop-up {
-/*    float right;*/
 }
 
 .row-title {
@@ -117,11 +112,11 @@ iframe {
     position: relative; 
 }
 
-.section-info1 p, .section-info2 p {
+.section1-info1 p, .section1-info2 p {
     line-height: 40px;
 }
 
-.section-info1:hover {
+.section1-info1:hover {
     background: linear-gradient(rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
         url('../images/shatter-me.jpg');
@@ -131,15 +126,98 @@ iframe {
     background-size: cover;
 }
 
-.section-info1:hover .hide {
+.section1-info1:hover .hide {
     visibility: hidden;
 }
 
-.section-info1:hover .pop-up {
+.section1-info1:hover .pop-up {
     visibility: visible;
 }
 
+.section1-info2:hover {
+    background: linear-gradient(rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url('../images/alone.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section1-info2:hover .hide {
+    visibility: hidden;
+}
+
+.section1-info2:hover .pop-up {
+    visibility: visible;
+}
+
+.section2-info1 p, .section2-info2 p {
+    line-height: 30px;
+}
+
 /*Section 1 Ends*/
+
+
+/*Section 2 Starts*/
+.section2-info1 {
+    background: linear-gradient(rgba(29,161,242,0.7),
+        rgba(255,174,213,0.7)),
+        url('../images/community.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.section2-info2 {
+    background: linear-gradient(rgba(255,174,213,0.7),
+        rgba(29,161,242,0.7)),
+        url('../images/firefly.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.section2-info1:hover {
+    background: linear-gradient(rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url('../images/community.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section2-info1:hover .hide {
+    visibility: hidden;
+}
+
+.section2-info1:hover .pop-up {
+    visibility: visible;
+}
+
+.section2-info2:hover {
+    background: linear-gradient(rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url('../images/firefly.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section2-info2:hover .hide {
+    visibility: hidden;
+}
+
+.section2-info2:hover .pop-up {
+    visibility: visible;
+}
+/*Section 2 Ends*/
 
 
 /*My icons starts*/
