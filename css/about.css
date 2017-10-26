@@ -88,6 +88,18 @@ iframe {
     position: relative;
 }
 
+.pop-up {
+    visibility: hidden;
+    display: inline;
+    margin-top: 150px;
+    margin-right: 300px;
+    float: right;
+}
+
+.pop-up {
+/*    float right;*/
+}
+
 .row-title {
     width: 150px !important;
     border-bottom: 3px solid white;
@@ -106,8 +118,25 @@ iframe {
 }
 
 .section-info1 p, .section-info2 p {
-/*    padding: 5px 200px;*/
     line-height: 40px;
+}
+
+.section-info1:hover {
+    background: linear-gradient(rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url('../images/shatter-me.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section-info1:hover .hide {
+    visibility: hidden;
+}
+
+.section-info1:hover .pop-up {
+    visibility: visible;
 }
 
 /*Section 1 Ends*/
