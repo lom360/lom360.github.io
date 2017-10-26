@@ -25,7 +25,7 @@ main{
 }
 /*Main Ends*/
 
-/*Interest Starts*/
+/*Section 1 Starts*/
 .section1 {
     height: 1000px;
     margin: 5px 0;
@@ -58,12 +58,14 @@ iframe {
     width: 100%;
 }
 
-
 .section-info1, .section-info2 {
-    color: white;
     height: 100%;
     width: 50%;
+    padding: 0 120px;
+    color: white;
+/*    text-align: center;*/
 }
+
 .section-info1 {
     background: linear-gradient(rgba(29,161,242,0.7),
         rgba(255,174,213,0.7)),
@@ -86,9 +88,29 @@ iframe {
     position: relative;
 }
 
+.row-title {
+    width: 150px !important;
+    border-bottom: 3px solid white;
+    left: 30px;
+}
 
+.row-paragraph {
+    width: 300px;
+    right: 45px;
+}
 
-/*Interest Ends*/
+.row-title, .row-paragraph {
+    margin: 20px 0;
+    text-align: center;
+    position: relative; 
+}
+
+.section-info1 p, .section-info2 p {
+/*    padding: 5px 200px;*/
+    line-height: 40px;
+}
+
+/*Section 1 Ends*/
 
 
 /*My icons starts*/
