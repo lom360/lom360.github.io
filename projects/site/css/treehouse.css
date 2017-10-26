@@ -1,0 +1,94 @@
+* {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+body, main, figure, li, h1 {
+    margin: 0;
+}
+
+header {
+    box-shadow: 0 0 2px #000;
+    overflow: auto;
+}
+
+.container {
+    max-width: 1020px;
+    margin:0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    padding: 24px 0 24px 15px;
+    font-weight: 600;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style: none;
+    padding: 15px 0;
+}
+
+ul a {
+    color: #8c989e;
+    text-decoration: none;
+}
+
+li, h1 {
+    display: inline-block;
+}
+
+li {
+    padding: 0 20px;
+}
+
+ul li:last-child a, h1 {
+    color: #5fcf80;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main {
+    background-color: tomato;
+    flex-grow: 1;
+}
+
+aside {
+    background-color: green;
+    flex-grow: .5;
+}
+
+.flex {
+    display: flex;
+}
+
+main, aside {
+    height: 500px;
+    flex-basis: 0;
+}
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    main, aside {
+        flex: 0 auto;
+    }
+
+    /*/!*main {*!/ This is another way to reverse column*/
+        /*order: 2;*/
+    /*}*/
+
+    /*aside {*/
+        /*order: 1;*/
+    /*}*/
+}

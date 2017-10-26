@@ -27,9 +27,8 @@ main{
 
 /*Section 1 Starts*/
 .section1 {
-    height: 1000px;
+    height: 920px;
     margin: 5px 0;
-/*    background-color: rgba(255,235,237,0.7);*/
 }
 
 .section1-title {
@@ -223,7 +222,7 @@ iframe {
 /*My icons starts*/
 .random-bar {
     height: 150px;
-    margin: 20px 0;
+    margin-top: 100px;
     background-color: rgba(255,235,237,0.7);
     text-align: center;
 }
