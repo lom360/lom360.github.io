@@ -1,4 +1,4 @@
-/* Projects Page */
+/* Projects Start */
 
 .projects {
     padding-top: 30px;
@@ -58,3 +58,13 @@
     -o-transition: max-height .5s ease;
     transition: max-height .5s ease;
 }
+
+/* Projects Ends */
+
+
+/* Footer Starts */
+footer {
+    margin-top: 100px;
+}
+
+/* Footer Ends */
