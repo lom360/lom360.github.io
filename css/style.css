@@ -26,6 +26,8 @@ header {
 
 .bot-header {
     background-color: yellow;
+    position: sticky;
+    top: 0;
 }
 
 .nav-bar {
@@ -40,3 +42,8 @@ header {
     top: 25px;
 }
 /*Header and Navbar ends*/
+
+main {
+    height: 2000px;
+    background-color: blue;
+}
