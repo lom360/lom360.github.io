@@ -1,4 +1,8 @@
 /*Universal starts*/
+ul {
+    background-color: pink;
+}
+
 li {
     display: inline-block;
 }
@@ -10,18 +14,29 @@ header {
 }
 
 .top-header, .bot-header {
+    height: 75px;
     display: block;
     text-align: center;
 }
 
 .top-header {
-    height: 75px;
     background-color: green;
     
 }
 
 .bot-header {
-    height: 75px;
     background-color: yellow;
+}
+
+.nav-bar {
+    height: 75px;
+    font-size: 20px;
+    
+}
+
+.nav-bar li {
+    padding: 0px 20px;
+    position: relative;
+    top: 25px;
 }
 /*Header and Navbar ends*/
