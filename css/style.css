@@ -1,17 +1,27 @@
+/*Universal starts*/
+li {
+    display: inline-block;
+}
+/*Universal ends*/
+
+/*Header and Navbar starts*/
 header {
     height: 150px;    
 }
 
 .top-header, .bot-header {
     display: block;
+    text-align: center;
 }
 
 .top-header {
     height: 75px;
     background-color: green;
+    
 }
 
 .bot-header {
     height: 75px;
     background-color: yellow;
 }
+/*Header and Navbar ends*/
