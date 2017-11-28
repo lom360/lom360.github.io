@@ -8,26 +8,11 @@ li {
 }
 /*Universal ends*/
 
-/*Header and Navbar starts*/
+/*Header starts*/
 header {
-    height: 150px;    
-}
-
-.top-header, .bot-header {
-    height: 75px;
-    display: block;
-    text-align: center;
-}
-
-.top-header {
+    height: 200px;    
     background-color: green;
-    
-}
-
-.bot-header {
-    background-color: yellow;
-    position: sticky;
-    top: 0;
+    text-align: center;
 }
 
 .nav-bar {
@@ -41,7 +26,7 @@ header {
     position: relative;
     top: 25px;
 }
-/*Header and Navbar ends*/
+/*Header ends*/
 
 main {
     height: 2000px;
