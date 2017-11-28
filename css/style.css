@@ -1,8 +1,4 @@
 /*Universal starts*/
-ul {
-    background-color: pink;
-}
-
 li {
     display: inline-block;
 }
@@ -14,11 +10,21 @@ header {
     background-color: green;
     text-align: center;
 }
+/*Header ends*/
+
+
+/*Nav Starts*/
+nav {
+    height: 75px;
+    position: sticky;
+    top: 0;
+    background-color: pink;
+}
 
 .nav-bar {
     height: 75px;
     font-size: 20px;
-    
+    text-align: center;
 }
 
 .nav-bar li {
@@ -26,9 +32,11 @@ header {
     position: relative;
     top: 25px;
 }
-/*Header ends*/
+/*Nav Ends*/
 
+/*Main Starts*/
 main {
     height: 2000px;
     background-color: blue;
 }
+/*Main Ends*/
