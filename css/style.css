@@ -7,8 +7,12 @@ li {
 /*Header starts*/
 header {
     height: 200px;    
-    background-color: green;
     text-align: center;
+}
+
+.site-title {
+    position: relative;
+    top: 55px;
 }
 /*Header ends*/
 
@@ -18,7 +22,6 @@ nav {
     height: 75px;
     position: sticky;
     top: 0;
-    background-color: pink;
 }
 
 .nav-bar {
@@ -35,8 +38,8 @@ nav {
 /*Nav Ends*/
 
 /*Main Starts*/
-main {
+.my-works {
     height: 2000px;
-    background-color: blue;
+    border-top: 2px solid lightgrey;
 }
 /*Main Ends*/
