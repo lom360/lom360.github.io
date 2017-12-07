@@ -2,6 +2,11 @@
 li {
     display: inline-block;
 }
+
+div p {
+    line-height: 40px;
+    font-size: 20px;
+}
 /*Universal ends*/
 
 /*Header starts*/
@@ -41,12 +46,12 @@ nav {
 /*Main Starts*/
 .my-works {
     height: 2000px;
+    padding: 0 200px;
     border-top: 1px solid lightgrey;
 }
 
 .title {
-    background-color: yellow;
-/*    background-color: lightblue;*/
+    margin-left: 20px;
 }
 
 .my-image {
@@ -54,6 +59,6 @@ nav {
     width: 250px;
     border-radius: 50%;
     margin-top: 30px;
-    margin-left: 100px
+/*    margin-left: 100px*/
 }
 /*Main Ends*/
