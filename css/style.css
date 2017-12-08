@@ -11,13 +11,15 @@ div p {
 
 /*Header starts*/
 header {
-    height: 200px;    
+    height: 75px;    
     text-align: center;
 }
 
 .site-title {
+/*
     position: relative;
     top: 70px;
+*/
 }
 /*Header ends*/
 
@@ -42,6 +44,15 @@ nav {
     top: 25px;
 }
 /*Nav Ends*/
+
+/*Hero Starts*/
+.hero {
+    height: 650px;
+    background-image: url('../images/lake-view.jpg');
+    background-position: center top;
+}
+/*Hero Ends*/
+
 
 /*Main Starts*/
 .my-works {
