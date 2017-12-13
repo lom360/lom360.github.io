@@ -6,9 +6,8 @@
 
 /*Nav starts*/
 nav {
-    margin-top: 75px;
     height: 100px;
-    background-color: black;
+/*    background-color: black;*/
     position: sticky;
     top: 0;
     z-index: 10;
@@ -20,15 +19,16 @@ nav {
 /*Hero starts*/
 .hero {
     height: 700px;
-    background-image: url('../images/lake-view.jpg');
-   
+    background: linear-gradient(rgba(255,210,217,0.6),rgb(149,199,244,0.6)),
+        url('../images/lake-view.jpg');
+    position: relative;
+    top: -100px;
 }
 /*Hero ends*/
 
 .hello {
     height: 1000px;
     background-color: blue;
-    position: relative;
-    top: 525px;
+    
     opacity: 0.5;
 }
