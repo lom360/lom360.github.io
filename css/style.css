@@ -7,7 +7,7 @@
 /*Nav starts*/
 nav {
     height: 100px;
-    background-color: black;
+/*    background-color: rgb(149,199,244);*/
     position: sticky;
     top: 0;
     z-index: 10;
@@ -35,16 +35,47 @@ li a {
 /*Hero starts*/
 .hero {
     height: 700px;
-    background: linear-gradient(rgba(255,210,217,0.5),rgb(149,199,244,0.5)),
+    background: linear-gradient(rgba(3,3,3,0.5),rgba(3,3,3,0.5)),
         url('../images/lake-view.jpg');
     position: relative;
     top: -100px;
 }
-/*Hero ends*/
 
 .hello {
-    height: 1000px;
-    background-color: blue;
-    
-    opacity: 0.5;
+    color: #fff;
+    font-size: 100px;
+    word-spacing: 50px;
+    letter-spacing: 35px;
+    position: absolute;
+    top: 230px;
+    left: 375px;
 }
+/*Hero ends*/
+
+/*Content starts*/
+.content {
+    position: relative;
+    top: -100px;
+    text-align: center;
+}
+
+.content div {
+    height: 300px;
+    padding: 15px 100px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
+.content div:first-child {
+    background-color: rgb(239,239,239);
+}
+
+.content div:nth-child(2) {
+    color: #fff;
+    background-color: rgb(149,199,244);
+}
+/*Content ends*/
