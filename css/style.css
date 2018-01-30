@@ -93,6 +93,16 @@ li a:hover {
     border-radius: 50px;
 }
 
+.btn1:visited, .btn2:visited {
+    text-decoration: none;
+}
+
+.btn1:hover {
+    color: rgb(3,151,215);
+    background-color: #fff;
+    text-decoration: none;
+}
+
 .btn1 {
     color: #fff;  
     background-color: rgb(3,151,215);
