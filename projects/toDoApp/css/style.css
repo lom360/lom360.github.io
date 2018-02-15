@@ -1,0 +1,31 @@
+.box {
+    height: 75px;
+    background-color: rgb(34,34,34);
+}
+
+.page-title {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 15px;
+    word-spacing: 10px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+
+.page-title span{
+    color: white;
+}
+
+.box2 {
+}
+
+.side-bar {
+    height: 1000px;
+    background-color: rgb(34,34,34);
+}
+
+.main-bar {
+    height: 1000px;
+    background: linear-gradient(to right, rgba(1,226,120,.5), rgba(1,226,120,.5));
+}
