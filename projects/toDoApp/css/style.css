@@ -1,6 +1,8 @@
-.box {
+/*----------Top Bar Starts----------*/
+.box1 {
     height: 75px;
     background-color: rgb(34,34,34);
+    border-bottom: 7px solid white;
 }
 
 .page-title {
@@ -10,13 +12,16 @@
     word-spacing: 10px;
     position: absolute;
     top: 17px;
-    left: 15px;
+    left: 33px;
 }
 
 .page-title span{
     color: white;
 }
+/*----------Top Bar Ends----------*/
 
+
+/*----------Side and Main Bar Starts----------*/
 .box2 {
 }
 
@@ -27,5 +32,15 @@
 
 .main-bar {
     height: 1000px;
+    padding: 50px 0px;
     background: linear-gradient(to right, rgba(1,226,120,.5), rgba(1,226,120,.5));
+    border-left: 9px solid white;
+    /* border-top: 2px solid white; */
+}
+/*----------Side and Main Bar Ends----------*/
+
+
+.test {
+    height: 500px;
+    background-color: rgba(255,255,255,0.3);
 }
