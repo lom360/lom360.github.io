@@ -12,7 +12,7 @@
     word-spacing: 10px;
     position: absolute;
     top: 17px;
-    left: 33px;
+    left: 39px;
 }
 
 .page-title span{
@@ -42,16 +42,30 @@
 
 
 .tester {
-    height: 900px;
-    background-color: rgba(60,60,60,0.3);
+    height: 875px;
+    background-color: rgba(255,255,255,0.1);
 }
 
 .test {
     height: 500px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
+    width: 300px;
+}
+
+.test:first-child {
+    position: relative;
+    left: 0px;
 }
 
 .test2 {
     height: 350px;
-    background-color: rgba(255,255,255,0.3);
+    margin-top: 20px;
+    background-color: rgba(255,255,255,0.5);
 }
+
+/* Side Bar Starts*/
+.power-btn {
+    margin: 10px;
+    text-align: center;
+}
+/* Side Bar Ends */
