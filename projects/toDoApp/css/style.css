@@ -27,6 +27,7 @@
 
 .side-bar {
     height: 1000px;
+    padding: 50px 0px;
     background-color: rgb(34,34,34);
 }
 
@@ -40,7 +41,17 @@
 /*----------Side and Main Bar Ends----------*/
 
 
+.tester {
+    height: 900px;
+    background-color: rgba(60,60,60,0.3);
+}
+
 .test {
     height: 500px;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.test2 {
+    height: 350px;
     background-color: rgba(255,255,255,0.3);
 }
