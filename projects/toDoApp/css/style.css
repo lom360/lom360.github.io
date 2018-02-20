@@ -41,26 +41,34 @@
 /*----------Side and Main Bar Ends----------*/
 
 
-.tester {
+.my-console {
     height: 875px;
     background-color: rgba(255,255,255,0.1);
 }
 
-.test {
+.main-left, .main-right {
     height: 500px;
-    background-color: rgba(255,255,255,0.5);
     width: 300px;
+    background-color: rgba(255,255,255,0.5);
 }
 
-.test:first-child {
-    position: relative;
-    left: 0px;
-}
-
-.test2 {
+.main-bot {
     height: 350px;
     margin-top: 20px;
     background-color: rgba(255,255,255,0.5);
+}
+
+.box-title {
+    height: 45px;
+    width: 70%;
+    padding: 12px 0px;
+    margin: 10px 15%;
+    border-bottom: 1px solid rgb(132,141,150);
+    color: rgb(132,141,150);
+    /* background-color: white; */
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 5px;
 }
 
 /* Side Bar Starts*/
