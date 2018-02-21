@@ -65,11 +65,26 @@
     margin: 10px 15%;
     border-bottom: 1px solid rgb(132,141,150);
     color: rgb(132,141,150);
-    /* background-color: white; */
+
     font-size: 20px;
     text-align: center;
     letter-spacing: 5px;
 }
+
+.to-do-list {
+    height: 420px;
+    padding: 20px 50px;
+
+    color: rgb(132,141,150);
+    /* background-color: white; */
+
+    font-size: 20px;
+    line-height: 50px;
+}
+
+/* li:nth-child(7) {
+    line-height: 30px;
+} */
 
 /* Side Bar Starts*/
 .power-btn {
