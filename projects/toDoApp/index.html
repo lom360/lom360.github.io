@@ -28,9 +28,10 @@
             <div class="col-3 side-bar">
                 <div class="row justify-content-center">
                     <div class="col-10 my-console">
-                        <form action="">
-                            <button class="power-btn">Start</button>
-                            <button class="power-btn">Restart</button>
+                        <form action="/users" medtho="post" name="newItem">
+                            <input type="text" name="item" class="item" id="" placeholder="">
+                            <button class="power-btn" type="submit" name="submit">New</button>
+                            <!-- <button class="power-btn">Restart</button> -->
                         </form>
                     </div>
                 </div>
@@ -41,15 +42,7 @@
                 <div class="row justify-content-around main-top">
                     <div class="col-5 main-left">
                         <h1 class="box-title">My &nbsp To &nbsp Do &nbsp List</h1>
-                        <ul class="to-do-list">
-                            <li><p>Running</p></li>
-                            <li><p>Fighting</p></li>
-                            <li><p>Sleeping</p></li>
-                            <li><p>Go to the Zoo.</p></li>
-                            <li><p>Learn to speak French.</p></li>
-                            <li><p>Meet Kate Beckinsale.</p></li>
-                            <li><p>Take over the world.</p></li>
-                        </ul>
+                        <ul class="to-do-list" id="myList"></ul>
                     </div>
                     <div class="col-5 main-right">
                         <h1 class="box-title">My &nbsp Completed  &nbsp List</h1>
@@ -68,5 +61,6 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js">
 
     </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
