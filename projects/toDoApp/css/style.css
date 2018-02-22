@@ -92,3 +92,14 @@
     text-align: center;
 }
 /* Side Bar Ends */
+li {
+    /* height: 30px; */
+}
+
+li button {
+    width: 70px;
+    /* height: 100%; */
+    margin-left: 30px;
+    display: inline;
+    background: transparent;
+}

@@ -2,16 +2,18 @@ var count = 0;
 var myList = [];
 var newItemForm = document.forms.newItem;
 var oldItemForm = document.forms.oldItem;
+var wipeItemForm = document.forms.wipeAll;
 
 newItemForm.addEventListener("submit", function(e){
     insert(e)});
 oldItemForm.addEventListener("submit", function(e){
         remove(e)});
+wipeItemForm.addEventListener("submit", function(e){
+        reset(e)});
 
 var toDoList = {
     addItem(newItem){
-        this.incrementCount();
-        if(count <= 7) {
+        if(myList.length < 7) {
             this.pushToList(newItem.item);
             this.print();
         } else {
@@ -19,44 +21,58 @@ var toDoList = {
         }
     },
     deleteItem(oldItem){
-        this.decrementCount();
-        let temp = count;
+        let temp = myList.length - 1;
+        var index = myList.indexOf(oldItem);
+        if (index > -1) {
+            myList.splice(index, 1);
+            console.log(myList);
+        }
         while(temp >= 0) {
             var el = document.getElementsByTagName('li')[temp];
             el.remove();
             temp--;
         }
-        var index = myList.indexOf(oldItem);
-        if (index > -1) {
-            myList.splice(index, 1);
-            this.printAll();
-            console.log(myList);
-        }
-
+        this.printAll();
     },
     pushToList(newItem){
         myList.push(newItem);
         console.log(myList);
     },
-    incrementCount(){
-        count++;
-    },
-    decrementCount(){
-        count--;
-    },
+    // incrementCount(){
+    //     count++;
+    // },
+    // decrementCount(){
+    //     count--;
+    // },
     print(){
         var newList = document.createElement('li');
+        var newBtn = document.createElement('button');
         var textNode = document.createTextNode((myList.length) + '. ' + myList[myList.length - 1]);
+        var btnNode = document.createTextNode('edit');
+        newBtn.appendChild(btnNode);
         newList.appendChild(textNode);
+        newList.appendChild(newBtn);
         document.getElementById("myList").appendChild(newList);
     },
     printAll(){
+        if(myList.length == 0){
+            alert("Stop it!!! Your List is already empty.");
+        }
         for(var i = 0; i < myList.length; i++){
             var newList = document.createElement('li');
             var textNode = document.createTextNode((i+1) + '. ' + myList[i]);
             newList.appendChild(textNode);
             document.getElementById("myList").appendChild(newList);
         }
+    },
+    wipeAll(){
+        let temp = myList.length - 1;
+        while(temp >= 0) {
+            var el = document.getElementsByTagName('li')[temp];
+            el.remove();
+            temp--;
+        }
+        myList = [];
     }
 }
 
@@ -77,8 +93,12 @@ function remove(e) {
     toDoList.deleteItem(trash);
 }
 
-// var el = document.getElementsByTagName("li:nth-child(${})");
-// el.remove(); // Removes the div with the 'div-02' id
+function reset(e) {
+    e.preventDefault();
+    toDoList.wipeAll();
+}
+
+
 
 
 
