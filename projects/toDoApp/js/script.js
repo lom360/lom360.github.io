@@ -2,6 +2,7 @@ var count = 0;
 var myList = [];
 var newItemForm = document.forms.newItem;
 var oldItemForm = document.forms.oldItem;
+
 newItemForm.addEventListener("submit", function(e){
     insert(e)});
 oldItemForm.addEventListener("submit", function(e){
@@ -12,19 +13,26 @@ var toDoList = {
         this.incrementCount();
         if(count <= 7) {
             this.pushToList(newItem.item);
-            this.printAll();
-            // var newList = document.createElement('li');
-            // var textNode = document.createTextNode(count + '. ' + newItem.item);
-            // newList.appendChild(textNode);
-            // document.getElementById("myList").appendChild(newList);
+            this.print();
         } else {
             alert("Calm Down!!! You are planning too many things.")
         }
     },
     deleteItem(oldItem){
         this.decrementCount();
-        var el = document.getElementsByTagName('li')[myList.indexOf(oldItem)];
-        el.remove();
+        let temp = count;
+        while(temp >= 0) {
+            var el = document.getElementsByTagName('li')[temp];
+            el.remove();
+            temp--;
+        }
+        var index = myList.indexOf(oldItem);
+        if (index > -1) {
+            myList.splice(index, 1);
+            this.printAll();
+            console.log(myList);
+        }
+
     },
     pushToList(newItem){
         myList.push(newItem);
@@ -35,6 +43,12 @@ var toDoList = {
     },
     decrementCount(){
         count--;
+    },
+    print(){
+        var newList = document.createElement('li');
+        var textNode = document.createTextNode((myList.length) + '. ' + myList[myList.length - 1]);
+        newList.appendChild(textNode);
+        document.getElementById("myList").appendChild(newList);
     },
     printAll(){
         for(var i = 0; i < myList.length; i++){
