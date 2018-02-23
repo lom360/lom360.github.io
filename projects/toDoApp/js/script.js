@@ -3,6 +3,7 @@ var myList = [];
 var newItemForm = document.forms.newItem;
 var oldItemForm = document.forms.oldItem;
 var wipeItemForm = document.forms.wipeAll;
+// var editItemForm = document.querySelector('li');
 
 newItemForm.addEventListener("submit", function(e){
     insert(e)});
@@ -10,6 +11,8 @@ oldItemForm.addEventListener("submit", function(e){
         remove(e)});
 wipeItemForm.addEventListener("submit", function(e){
         reset(e)});
+// editItemForm.addEventListener("click", function(e){
+//         edit(e)});
 
 var toDoList = {
     addItem(newItem){
@@ -26,6 +29,8 @@ var toDoList = {
         if (index > -1) {
             myList.splice(index, 1);
             console.log(myList);
+        }else{
+            alert("Please name something that is on the list!!!");
         }
         while(temp >= 0) {
             var el = document.getElementsByTagName('li')[temp];
@@ -38,12 +43,6 @@ var toDoList = {
         myList.push(newItem);
         console.log(myList);
     },
-    // incrementCount(){
-    //     count++;
-    // },
-    // decrementCount(){
-    //     count--;
-    // },
     print(){
         var newList = document.createElement('li');
         var newBtn = document.createElement('button');
@@ -60,8 +59,12 @@ var toDoList = {
         }
         for(var i = 0; i < myList.length; i++){
             var newList = document.createElement('li');
+            var newBtn = document.createElement('button');
             var textNode = document.createTextNode((i+1) + '. ' + myList[i]);
+            var btnNode = document.createTextNode('edit');
+            newBtn.appendChild(btnNode);
             newList.appendChild(textNode);
+            newList.appendChild(newBtn);
             document.getElementById("myList").appendChild(newList);
         }
     },
@@ -73,6 +76,9 @@ var toDoList = {
             temp--;
         }
         myList = [];
+    },
+    editItem(){
+        alert("What do you want to change to?", "something");
     }
 }
 
@@ -98,7 +104,10 @@ function reset(e) {
     toDoList.wipeAll();
 }
 
-
+// function edit(e) {
+//     e.preventDefault();
+//     toDoList.editItem();
+// }
 
 
 
