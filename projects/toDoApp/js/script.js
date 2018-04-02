@@ -3,7 +3,7 @@ var myList = [];
 var newItemForm = document.forms.newItem;
 var oldItemForm = document.forms.oldItem;
 var wipeItemForm = document.forms.wipeAll;
-// var editItemForm = document.querySelector('li');
+// var editItemForm = document.getElementsByName('editButton');
 
 newItemForm.addEventListener("submit", function(e){
     insert(e)});
@@ -13,6 +13,7 @@ wipeItemForm.addEventListener("submit", function(e){
         reset(e)});
 // editItemForm.addEventListener("click", function(e){
 //         edit(e)});
+
 
 var toDoList = {
     addItem(newItem){
@@ -52,6 +53,10 @@ var toDoList = {
         newList.appendChild(textNode);
         newList.appendChild(newBtn);
         document.getElementById("myList").appendChild(newList);
+
+        // var b = document.querySelector("button");
+        // b.setAttribute("name", "editButton");
+        // b.setAttribute("disabled", "");
     },
     printAll(){
         if(myList.length == 0){
@@ -66,6 +71,10 @@ var toDoList = {
             newList.appendChild(textNode);
             newList.appendChild(newBtn);
             document.getElementById("myList").appendChild(newList);
+
+            // var b = document.querySelector("button");
+            // b.setAttribute("name", "editButton");
+            // b.setAttribute("disabled", "");
         }
     },
     wipeAll(){
@@ -104,11 +113,17 @@ function reset(e) {
     toDoList.wipeAll();
 }
 
+
 // function edit(e) {
 //     e.preventDefault();
-//     toDoList.editItem();
+//     prompt("What do you want to change the item to?",Current Item);
 // }
-
+// promptEdit(){
+//     function(e) {
+//         e.preventDefault();
+//         var tempVal = prompt("What would you like to change the item to?", current);
+//     }
+// }
 
 
 
