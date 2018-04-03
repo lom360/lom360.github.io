@@ -1,0 +1,8 @@
+.hero {
+    min-height: 1000px;
+    background: linear-gradient(rgba(3,3,3,0.5),rgba(3,3,3,0.5)), url(images/landing-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
