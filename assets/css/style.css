@@ -6,11 +6,11 @@ nav {
     height: 300px;
     width: 100%;
     background-color: green;
-    position: absolute;
+    position: fixed;
 }
 
 .hero {
     height: 1000px;
     width: 100%;
-    background-color: red;
+    /* background-image: url(""); */
 }
