@@ -2,9 +2,9 @@
     margin: 0;
 } */
 
-.navbar-default {
-    background-color: none;
-}
+/* .navbar-default {
+    background-image: green;
+} */
 
 .hero-container {
     padding: 0;
@@ -12,7 +12,7 @@
 
 .hero {
     height: 600px;
-    background-image: url('../images/lake-view.jpg');
+    background-image: linear-gradient(rgba(3, 3, 3, 0.5), rgba(3, 3, 3, 0.5)), url('../images/lake-view.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
