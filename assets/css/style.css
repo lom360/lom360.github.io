@@ -2,9 +2,11 @@
     margin: 0;
 } */
 
-/* .navbar-default {
-    background-image: green;
-} */
+.navbar-center {
+    width: 100px;
+    display: inline;
+    text-align: center;
+}
 
 .hero-container {
     padding: 0;
