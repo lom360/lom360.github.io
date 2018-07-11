@@ -2,8 +2,23 @@
     margin: 0;
 } */
 
-nav {
-    /* height: 300px; */
-    background-color: green;
-    position: fixed;
+.navbar-default {
+    background-color: none;
+}
+
+.hero-container {
+    padding: 0;
+}
+
+.hero {
+    height: 600px;
+    background-image: url('../images/lake-view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.power {
+    height: 1000px;
+    width: 100%;
+    background-color: yellow;
 }
