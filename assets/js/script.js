@@ -1,29 +1,34 @@
 var navBar = document.querySelector(".test");
-var navIsTop = true;
 var last_known_scroll_position = 0;
-var ticking = false;
+var tickTock = false;
 
-function navBackground(scroll_pos) {
-    if(scroll_pos >= 200) {
-        navBar.style.backgroundColor = "green";
-    } else if(scroll_pos < 200) {
-        navBar.style.backgroundColor = "none";
-    }
+function addNavColor() {
+    navBar.classList.add("nav-color");
+}
+
+function removeNavColor() {
+    navBar.classList.remove("nav-color");
 }
 
 window.addEventListener('scroll', function (e) {
 
     last_known_scroll_position = window.scrollY;
-
-    if (!ticking) {
-
+    checkTickTock(last_known_scroll_position);
+    if (tickTock) {
         window.requestAnimationFrame(function () {
-            navBackground(last_known_scroll_position);
-            ticking = false;
+            addNavColor(last_known_scroll_position);
         });
-
-        ticking = true;
-
+    }else {
+        window.requestAnimationFrame(function () {
+            removeNavColor(last_known_scroll_position);
+        });
     }
-
 });
+
+function checkTickTock(scroll_pos){
+    if(scroll_pos >= 200) {
+        tickTock = true;
+    } else {
+        tickTock = false;
+    }
+}
