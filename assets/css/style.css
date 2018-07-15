@@ -1,21 +1,31 @@
-/* body {
+body {
     margin: 0;
-} */
+}
+
+nav {
+    /* margin-top: 30px; */
+    position: absolute;
+    top: 135px;
+    z-index: 2;
+}
 
 .nav-color {
-    background-color: rgba(49, 49, 47, .5);
+    background-color: rgba(49, 49, 47, .8);
 }
 
 .navbar-center {
-    margin: 10px auto;
     position: relative;
     left: 30%;
 }
 
+li {
+    margin: 10px 30px;
+}
+
 li a {
-    margin: 25px;
+    display: inline;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .hero-container {
@@ -27,6 +37,7 @@ li a {
     background-image: linear-gradient(rgba(3, 3, 3, 0.5), rgba(3, 3, 3, 0.5)), url('../images/lake-view.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: inherit;
 }
 
 .power {
