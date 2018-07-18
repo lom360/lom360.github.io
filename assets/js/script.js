@@ -7,7 +7,7 @@ window.addEventListener('scroll', function (e) {
 });
 
 function checkTickTock(scrollPosition){
-    if(scrollPosition >= 200) {
+    if(scrollPosition >= 30) {
         addNavColor(scrollPosition);
     } else {
         removeNavColor(scrollPosition);
@@ -15,9 +15,9 @@ function checkTickTock(scrollPosition){
 }
 
 function addNavColor() {
-    navBar.classList.add("nav-color");
+    navBar.classList.add("sticky");
 }
 
 function removeNavColor() {
-    navBar.classList.remove("nav-color");
+    navBar.classList.remove("sticky");
 }
