@@ -62,8 +62,18 @@ li a {
     position: inherit;
 }
 
-.power {
-    height: 1000px;
-    width: 100%;
+/* .main-content {
+    height: 500px;
+} */
+
+.main-left, .main-right {
+    height: 500px;
+}
+
+.main-left {
     background-color: lightgrey;
+}
+
+.main-right {
+    background-color: blue;
 }
