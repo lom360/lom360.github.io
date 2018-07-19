@@ -32,7 +32,7 @@ $(window).scroll(function(){
         $('.nav-container').addClass('nav-background').fadeIn();
     } else {
         $('nav').removeClass('sticky');
-        // // $('nav').addClass('nav-background').fadeOut();
+        $('.nav-container').removeClass('nav-background');        
     }
 });
 
