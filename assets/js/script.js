@@ -1,5 +1,5 @@
-var navBar = document.querySelector("nav");
-var scrollPosition = 0;
+// var navBar = document.querySelector("nav");
+// var scrollPosition = 0;
 
 // window.addEventListener('scroll', function (e) {
 //     scrollPosition = window.scrollY;
@@ -7,7 +7,7 @@ var scrollPosition = 0;
 // });
 
 // function checkTickTock(scrollPosition){
-//     if(scrollPosition >= 30) {
+//     if(scrollPosition >= 75) {
 //         addNavColor(scrollPosition);
 //     } else {
 //         removeNavColor(scrollPosition);
@@ -22,6 +22,17 @@ var scrollPosition = 0;
 //     navBar.classList.remove("sticky");
 // }
 
+var navOffset = $('nav').offset().top;
+
 $(window).scroll(function(){
-    $("nav").css("backgroundColor", "pink").fadeIn("slow");
+    var scrollPos = $(window).scrollTop();
+
+    if(scrollPos >= navOffset) {
+        $('nav').addClass('sticky');
+        $('.nav-container').addClass('nav-background').fadeIn();
+    } else {
+        $('nav').removeClass('sticky');
+        // // $('nav').addClass('nav-background').fadeOut();
+    }
 });
+
