@@ -68,6 +68,8 @@ li a {
 
 .main-left, .main-right {
     height: 500px;
+    /* padding: 45px 100px; */
+    text-align: center;
 }
 
 .main-left {
@@ -76,4 +78,8 @@ li a {
 
 .main-right {
     background-color: blue;
+}
+
+p {
+    font-size: 20px;
 }
