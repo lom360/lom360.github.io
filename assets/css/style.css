@@ -81,5 +81,7 @@ li a {
 }
 
 p {
-    font-size: 20px;
+    padding: 5px 50px;
+    font-size: 1.5em;
+    /* white-space: nowrap; */
 }
