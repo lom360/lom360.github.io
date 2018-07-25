@@ -73,20 +73,29 @@ li a {
 }
 
 .main-left {
-    background-color: rgb(239,239,239);
+    background-color: rgb(245,245,245);
 }
 
 .main-right {
-    background-color: rgb(31,182,193);
+    background-color: rgb(58,178,229);
 }
 
 .main-left h2 {
     margin-bottom: 30px;
 }
 
-.main-left button {
+.main-btn {
+    /* height: 50px; */
+    /* width: 100px; */
+    display: inline-block;
+    padding: 20px 45px;
     margin-top: 30px;
-    background-color: rgb(1,152,163);
+    border-radius: 30px;
+    background-color: rgb(58,178,229);
+}
+
+.main-btn:hover {
+    text-decoration: none;
 }
 
 p {
