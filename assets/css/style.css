@@ -67,8 +67,8 @@ li a {
 } */
 
 .main-left, .main-right {
-    height: 500px;
-    /* padding: 45px 100px; */
+    min-height: 350px;
+    padding: 30px 10px;
     text-align: center;
 }
 
@@ -80,8 +80,16 @@ li a {
     background-color: blue;
 }
 
+.main-left h2 {
+    margin-bottom: 30px;
+}
+
+.main-left button {
+    /* margin-top: 30px; */
+}
+
 p {
-    padding: 5px 50px;
-    font-size: 1.5em;
+    /* padding: 5px 50px; */
+    font-size: 1.3em;
     /* white-space: nowrap; */
 }
