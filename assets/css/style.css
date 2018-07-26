@@ -62,29 +62,26 @@ li a {
     position: inherit;
 }
 
-/* .main-content {
-    height: 500px;
-} */
-
-.main-left, .main-right {
+.main-content div {
     min-height: 350px;
     padding: 30px 50px;
     text-align: center;
 }
 
-.main-left {
+.main-content div:nth-child(1) {
     background-color: rgb(245,245,245);
 }
 
-.main-right {
+.main-content div:nth-child(2) {
+    color:  rgb(245,245,245);
     background-color: rgb(58,178,229);
 }
 
-.main-left h2 {
+h2 {
     margin-bottom: 30px;
 }
 
-.main-btn {
+.left-btn {
     display: inline-block;
     padding: 15px 35px;
     margin-top: 30px;
@@ -95,7 +92,7 @@ li a {
     /* font-weight: 600; */
 }
 
-.main-btn:hover {
+.left-btn:hover {
     border: 2px solid rgb(58, 178, 229);
     color: rgb(58, 178, 229);
     background-color: rgb(245, 245, 245);
@@ -104,6 +101,25 @@ li a {
     transition: background-color 0.2s linear;
 }
 
+.right-btn {
+    display: inline-block;
+    padding: 15px 35px;
+    margin-top: 30px;
+    border-radius: 30px;
+    color: rgb(58, 178, 229);
+    background-color: rgb(245, 245, 245);
+    font-size: 1.3em;
+    /* font-weight: 600; */
+}
+
+.right-btn:hover {
+    border: 2px solid rgb(245, 245, 245);
+    color: rgb(245, 245, 245);
+    background-color: rgb(58, 178, 229);
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s linear;
+}
 
 p {
     /* padding: 5px 50px; */
