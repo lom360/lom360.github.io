@@ -81,7 +81,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-.left-btn {
+.left-btn, .left-btn:visited {
     display: inline-block;
     padding: 15px 35px;
     margin-top: 30px;
@@ -96,12 +96,16 @@ h2 {
     border: 2px solid rgb(58, 178, 229);
     color: rgb(58, 178, 229);
     background-color: rgb(245, 245, 245);
-    text-decoration: none;
     font-weight: 600;
     transition: background-color 0.2s linear;
 }
 
-.right-btn {
+.left-btn:active {
+    color: rgb(245, 245, 245);
+    background-color: rgb(58, 178, 229);   
+}
+
+.right-btn, .right-btn:visited {
     display: inline-block;
     padding: 15px 35px;
     margin-top: 30px;
@@ -116,9 +120,17 @@ h2 {
     border: 2px solid rgb(245, 245, 245);
     color: rgb(245, 245, 245);
     background-color: rgb(58, 178, 229);
-    text-decoration: none;
     font-weight: 600;
     transition: background-color 0.2s linear;
+}
+
+.right-btn:active {
+    color: rgb(58, 178, 229);
+    background-color: rgb(245, 245, 245);
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
 }
 
 p {
