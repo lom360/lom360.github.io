@@ -86,7 +86,7 @@ h2 {
     padding: 15px 35px;
     margin-top: 30px;
     border-radius: 30px;
-    color: rgb(245, 245, 245);
+    color: rgb(230, 230, 230);
     background-color: rgb(58, 178, 229);
     font-size: 1.3em;
     /* font-weight: 600; */
@@ -134,7 +134,5 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 p {
-    /* padding: 5px 50px; */
     font-size: 1.3em;
-    /* white-space: nowrap; */
 }
