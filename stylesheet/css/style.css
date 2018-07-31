@@ -30,7 +30,6 @@ nav {
 .sticky {
     position: fixed;
     top: 0;
-    /* background-color: rgba(255, 182, 193, 0.3); */
 }
 
 .nav-background {
@@ -95,7 +94,6 @@ h2 {
     color: rgb(230, 230, 230);
     background-color: rgb(58, 178, 229);
     font-size: 1.3em;
-    /* font-weight: 600; */
 }
 
 .left-btn:hover {
@@ -120,9 +118,8 @@ h2 {
     background-color: rgb(245, 245, 245);
     font-size: 1.3em;
     /* font-weight: 600; */
-}
-
-.right-btn:hover {
+/* } */
+/* .right-btn:hover {
     border: 2px solid rgb(245, 245, 245);
     color: rgb(245, 245, 245);
     background-color: rgb(58, 178, 229);
@@ -143,3 +140,46 @@ p {
     font-size: 1.3em;
     display: inline-block;
 } */
+body {
+  margin: 0;
+  background-color: whitesmoke; }
+
+nav {
+  color: whitesmoke;
+  height: 75px;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 50px; }
+
+.nav-container {
+  height: 100%;
+  width: 100%; }
+
+.nav-link {
+  margin: 10px auto;
+  font-size: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.sticky {
+  position: fixed;
+  top: 0; }
+
+.nav-background {
+  background-color: rgba(6, 6, 6, 0.7);
+  transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in; }
+
+li {
+  margin: 10px 30px; }
+
+li a {
+  display: inline;
+  color: whitesmoke;
+  font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
