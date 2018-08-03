@@ -1,4 +1,5 @@
 $primary-color: rgb(245,245,245);
+$complimentary-blue: rgb(58,178,229);
 $transparent-black: rgba(30, 30, 30, 0.5);
 $my-hero-link: url('../../assets/images/lake-view.jpg');
 
@@ -75,19 +76,25 @@ li a {
     min-height: 350px;
 }
 
-.main-content div {
-    min-height: 350px;
-    padding: 30px 50px;
-    text-align: center;
-}
+// .main-content div {
+//     min-height: 350px;
+//     padding: 30px 50px;
+//     text-align: center;
+// }
 
-.main-content div:nth-child(1) {
-    background-color: rgb(245,245,245);
-}
-
-.main-content div:nth-child(2) {
-    color:  rgb(245,245,245);
-    background-color: rgb(58,178,229);
+.main-content {
+    div {
+        min-height: 350px;
+        padding: 30px 50px;
+        text-align: center;
+    }
+    div:nth-child(1) {
+        background-color: $primary-color;
+    }
+    div:nth-child(2) {
+        color: $primary-color;
+        background-color: $complimentary-blue;
+    }
 }
 
 h2 {
