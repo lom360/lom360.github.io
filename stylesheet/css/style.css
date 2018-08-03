@@ -57,11 +57,11 @@ li a {
   min-height: 350px;
   padding: 30px 50px;
   text-align: center; }
-.main-content div:nth-child(1) {
-  background-color: whitesmoke; }
-.main-content div:nth-child(2) {
-  color: whitesmoke;
-  background-color: #3ab2e5; }
+  .main-content div:nth-child(1) {
+    background-color: whitesmoke; }
+  .main-content div:nth-child(2) {
+    color: whitesmoke;
+    background-color: #3ab2e5; }
 
 h2 {
   margin-bottom: 30px; }

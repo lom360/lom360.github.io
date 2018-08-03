@@ -87,14 +87,21 @@ li a {
         min-height: 350px;
         padding: 30px 50px;
         text-align: center;
+        &:nth-child(1) {
+            background-color: $primary-color;
+        }
+        &:nth-child(2) {
+            color: $primary-color;
+            background-color: $complimentary-blue;
+        }
     }
-    div:nth-child(1) {
-        background-color: $primary-color;
-    }
-    div:nth-child(2) {
-        color: $primary-color;
-        background-color: $complimentary-blue;
-    }
+    // div:nth-child(1) {
+    //     background-color: $primary-color;
+    // }
+    // div:nth-child(2) {
+    //     color: $primary-color;
+    //     background-color: $complimentary-blue;
+    // }
 }
 
 h2 {
