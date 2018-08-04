@@ -92,17 +92,15 @@ h2 {
   color: #3ab2e5;
   background-color: whitesmoke;
   font-size: 1.3em; }
-
-.right-btn:hover {
-  border: 2px solid whitesmoke;
-  color: whitesmoke;
-  background-color: #3ab2e5;
-  font-weight: 600;
-  transition: background-color 0.2s linear; }
-
-.right-btn:active {
-  color: #3ab2e5;
-  background-color: whitesmoke; }
+  .right-btn:hover {
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    background-color: #3ab2e5;
+    font-weight: 600;
+    transition: background-color 0.2s linear; }
+  .right-btn:active {
+    color: #3ab2e5;
+    background-color: whitesmoke; }
 
 a, a:hover, a:active, a:visited, a:focus {
   text-decoration: none; }

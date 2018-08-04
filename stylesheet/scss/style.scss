@@ -126,8 +126,7 @@ h2 {
     @extend .left-btn;
 }
 
-
-.right-btn, .right-btn:visited {
+.right-btn {
     display: inline-block;
     padding: 15px 35px;
     margin-top: 30px;
@@ -135,19 +134,21 @@ h2 {
     color: rgb(58, 178, 229);
     background-color: rgb(245, 245, 245);
     font-size: 1.3em;
+    &:hover {
+        border: 2px solid rgb(245, 245, 245);
+        color: rgb(245, 245, 245);
+        background-color: rgb(58, 178, 229);
+        font-weight: 600;
+        transition: background-color 0.2s linear;        
+    }
+    &:active {
+        color: rgb(58, 178, 229);
+        background-color: rgb(245, 245, 245);        
+    }
 }
 
-.right-btn:hover {
-    border: 2px solid rgb(245, 245, 245);
-    color: rgb(245, 245, 245);
-    background-color: rgb(58, 178, 229);
-    font-weight: 600;
-    transition: background-color 0.2s linear;
-}
-
-.right-btn:active {
-    color: rgb(58, 178, 229);
-    background-color: rgb(245, 245, 245);
+.right-btn:visited {
+    @extend .right-btn;
 }
 
 a, a:hover, a:active, a:visited, a:focus {
