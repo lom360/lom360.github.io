@@ -74,17 +74,15 @@ h2 {
   color: #e6e6e6;
   background-color: #3ab2e5;
   font-size: 1.3em; }
-
-.left-btn:hover {
-  border: 2px solid #3ab2e5;
-  color: #3ab2e5;
-  background-color: whitesmoke;
-  font-weight: 600;
-  transition: background-color 0.2s linear; }
-
-.left-btn:active {
-  color: whitesmoke;
-  background-color: #3ab2e5; }
+  .left-btn:hover {
+    border: 2px solid #3ab2e5;
+    color: #3ab2e5;
+    background-color: whitesmoke;
+    font-weight: 600;
+    transition: background-color 0.2s linear; }
+  .left-btn:active {
+    color: whitesmoke;
+    background-color: #3ab2e5; }
 
 .right-btn, .right-btn:visited {
   display: inline-block;

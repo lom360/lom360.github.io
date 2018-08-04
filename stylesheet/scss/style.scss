@@ -101,7 +101,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-.left-btn, .left-btn:visited {
+.left-btn {
     display: inline-block;
     padding: 15px 35px;
     margin-top: 30px;
@@ -109,20 +109,23 @@ h2 {
     color: rgb(230, 230, 230);
     background-color: rgb(58, 178, 229);
     font-size: 1.3em;
+    &:hover {
+        border: 2px solid $complimentary-blue;
+        color: $complimentary-blue;
+        background-color: $primary-color;
+        font-weight: 600;
+        transition: background-color 0.2s linear;
+    }
+    &:active {
+        color: $primary-color;
+        background-color: $complimentary-blue;
+    }
 }
 
-.left-btn:hover {
-    border: 2px solid rgb(58, 178, 229);
-    color: rgb(58, 178, 229);
-    background-color: rgb(245, 245, 245);
-    font-weight: 600;
-    transition: background-color 0.2s linear;
+.left-btn:visited {
+    @extend .left-btn;
 }
 
-.left-btn:active {
-    color: rgb(245, 245, 245);
-    background-color: rgb(58, 178, 229);   
-}
 
 .right-btn, .right-btn:visited {
     display: inline-block;
