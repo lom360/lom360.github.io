@@ -45,7 +45,7 @@ nav {
 
 .nav-background {
     background-color: rgba(6, 6, 6, .7);
-    @include transition(all, 1s, ease-in);
+    @include transition(all, .3s, ease-in);
 }
 
 li {
