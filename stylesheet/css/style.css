@@ -52,6 +52,10 @@ li a {
 
 .main {
   min-height: 350px; }
+  .main img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%; }
 
 .main-content div {
   min-height: 350px;
