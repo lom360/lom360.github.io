@@ -53,11 +53,15 @@ li a {
 .main {
   min-height: 350px;
   padding: 10px 230px; }
-  .main img {
-    height: 200px;
-    width: 200px;
-    margin: 45px;
-    border-radius: 100%; }
+  .main .top-main {
+    display: inline-block; }
+    .main .top-main img {
+      height: 200px;
+      width: 200px;
+      margin: 45px;
+      border-radius: 100%; }
+    .main .top-main .about-me-text {
+      padding: 0px 300px; }
 
 .main-content div {
   min-height: 350px;

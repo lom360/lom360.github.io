@@ -75,20 +75,20 @@ li a {
 .main {
     min-height: 350px;
     padding: 10px 230px;
-    img{
-        height: 200px;
-        width: 200px;
-        margin: 45px;
-        border-radius: 100%;
+    .top-main {
+        display: inline-block;
+        img {
+            height: 200px;
+            width: 200px;
+            margin: 45px;
+            border-radius: 100%;
+        }
+        .about-me-text {
+            padding: 0px 300px;
+        }
     }
+
 }
-
-
-// .main-content div {
-//     min-height: 350px;
-//     padding: 30px 50px;
-//     text-align: center;
-// }
 
 .main-content {
     div {
