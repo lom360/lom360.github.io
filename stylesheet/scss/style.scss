@@ -76,7 +76,6 @@ li a {
     min-height: 350px;
     padding: 10px 200px;
     .top-main {
-        display: inline-block;
         img {
             height: 200px;
             width: 20%;
@@ -86,6 +85,7 @@ li a {
         }
         p {
             width: 60%;
+            margin-top: 45px;
             // float: right;
             // text-align: center;
             // padding: 0px 300px;

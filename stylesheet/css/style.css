@@ -53,16 +53,15 @@ li a {
 .main {
   min-height: 350px;
   padding: 10px 200px; }
-  .main .top-main {
-    display: inline-block; }
-    .main .top-main img {
-      height: 200px;
-      width: 20%;
-      margin: 45px;
-      border-radius: 100%;
-      float: left; }
-    .main .top-main p {
-      width: 60%; }
+  .main .top-main img {
+    height: 200px;
+    width: 20%;
+    margin: 45px;
+    border-radius: 100%;
+    float: left; }
+  .main .top-main p {
+    width: 60%;
+    margin-top: 45px; }
 
 .main-content div {
   min-height: 350px;
