@@ -74,17 +74,19 @@ li a {
 // *** Main STARTS here ***
 .main {
     min-height: 350px;
-    padding: 10px 230px;
+    padding: 10px 200px;
     .top-main {
         display: inline-block;
         img {
             height: 200px;
-            width: 200px;
+            width: 20%;
             margin: 45px;
             border-radius: 100%;
         }
         .about-me-text {
-            padding: 0px 300px;
+            width: 60%;
+            text-align: center;
+            // padding: 0px 300px;
         }
     }
 

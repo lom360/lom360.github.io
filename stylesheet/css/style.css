@@ -52,16 +52,17 @@ li a {
 
 .main {
   min-height: 350px;
-  padding: 10px 230px; }
+  padding: 10px 200px; }
   .main .top-main {
     display: inline-block; }
     .main .top-main img {
       height: 200px;
-      width: 200px;
+      width: 20%;
       margin: 45px;
       border-radius: 100%; }
     .main .top-main .about-me-text {
-      padding: 0px 300px; }
+      width: 60%;
+      text-align: center; }
 
 .main-content div {
   min-height: 350px;
