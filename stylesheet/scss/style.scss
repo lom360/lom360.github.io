@@ -18,7 +18,7 @@ body {
 // *** Navigation STARTS here ***
 nav {
     color: $primary-color;
-    height: 75px;
+    height: 50px;
     width: 100%;
     z-index: 2;
     position: absolute;
@@ -31,7 +31,7 @@ nav {
 }
 
 .nav-link {
-    margin: 10px auto;
+    margin: 0px auto;
     font-size: 2rem;
     display: flex;
     flex-wrap: wrap;
