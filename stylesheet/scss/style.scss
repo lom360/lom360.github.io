@@ -22,7 +22,7 @@ nav {
     width: 100%;
     z-index: 2;
     position: absolute;
-    top: 50px;
+    top: 65px;
 }
 
 .nav-container {
@@ -74,23 +74,20 @@ li a {
 // *** Main STARTS here ***
 .main {
     min-height: 350px;
-    padding: 10px 200px;
+    padding: 10px 250px;
     .top-main {
         img {
-            height: 200px;
-            width: 20%;
-            margin: 45px;
+            height: 150px;
+            width: 150px;
+            margin: 25px;
             border-radius: 100%;
             float: left;
         }
         p {
             width: 60%;
-
-            // float: right;
-            // text-align: center;
-            // padding: 0px 300px;
+            margin-top: 10px;
             &:nth-of-type(1) {
-                margin-top: 45px;
+                margin-top: 25px;
             }
         }
     }
