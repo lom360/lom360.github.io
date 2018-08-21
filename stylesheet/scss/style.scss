@@ -72,26 +72,27 @@ li a {
 }
 
 // *** Main STARTS here ***
-.main {
+.about-me-content {
     min-height: 350px;
     padding: 10px 250px;
-    .top-main {
-        img {
-            height: 150px;
-            width: 150px;
-            margin: 25px;
-            border-radius: 100%;
-            float: left;
+    .about-me-top {
+        .my-image {
+            img{
+                height: 150px;
+                width: 150px;
+                margin: 25px;
+                border-radius: 100%;
+                float: left;
+            }
         }
         p {
-            width: 60%;
+            // width: 60%;
             margin-top: 10px;
             &:nth-of-type(1) {
                 margin-top: 25px;
             }
         }
     }
-
 }
 
 .main-content {
