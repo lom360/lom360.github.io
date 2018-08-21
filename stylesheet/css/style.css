@@ -60,7 +60,8 @@ li a {
     border-radius: 100%;
     float: left; }
   .about-me-content .about-me-top p {
-    margin-top: 10px; }
+    margin-top: 10px;
+    line-height: 3.3rem; }
     .about-me-content .about-me-top p:nth-of-type(1) {
       margin-top: 25px; }
 
