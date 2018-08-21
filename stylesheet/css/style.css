@@ -45,10 +45,11 @@ li a {
 
 .hero {
   height: 600px;
+  max-width: 100%;
   background-image: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../../assets/images/lake-view.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-  position: inherit; }
+  background-repeat: no-repeat;
+  background-position: center top; }
 
 .about-me-content {
   min-height: 350px;
@@ -61,7 +62,7 @@ li a {
     float: left; }
   .about-me-content .about-me-top p {
     margin-top: 10px;
-    line-height: 3.3rem; }
+    line-height: 3.5rem; }
     .about-me-content .about-me-top p:nth-of-type(1) {
       margin-top: 25px; }
 
