@@ -63,7 +63,9 @@ li a {
     height: 160px;
     width: 160px;
     border-radius: 100%;
-    float: left; }
+    float: left;
+    position: relative;
+    top: 13px; }
   .about-me-content .about-me-top p {
     line-height: 3.5rem; }
     .about-me-content .about-me-top p:nth-of-type(1) {

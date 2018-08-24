@@ -91,6 +91,8 @@ li a {
                 // margin: 25px;
                 border-radius: 100%;
                 float: left;
+                position: relative;
+                top: 13px;
             }
         }
         p {
@@ -126,8 +128,6 @@ li a {
     }
 }
 
-
-
 .left-btn {
     display: inline-block;
     padding: 15px 35px;
@@ -158,19 +158,19 @@ li a {
     padding: 15px 35px;
     margin-top: 30px;
     border-radius: 30px;
-    color: rgb(58, 178, 229);
-    background-color: rgb(245, 245, 245);
+    color: $complimentary-blue;
+    background-color: $primary-color;
     font-size: 1.3em;
     &:hover {
-        border: 2px solid rgb(245, 245, 245);
-        color: rgb(245, 245, 245);
-        background-color: rgb(58, 178, 229);
+        border: 2px solid $primary-color;
+        color: $primary-color;
+        background-color: $complimentary-blue;
         font-weight: 600;
         transition: background-color 0.2s linear;        
     }
     &:active {
-        color: rgb(58, 178, 229);
-        background-color: rgb(245, 245, 245);        
+        color: $complimentary-blue;
+        background-color: $primary-color;        
     }
 }
 
