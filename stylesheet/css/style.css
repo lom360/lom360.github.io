@@ -69,11 +69,11 @@ li a {
 .main-content div {
   min-height: 350px;
   padding: 30px 50px;
-  text-align: center; }
+  text-align: center;
+  color: whitesmoke; }
   .main-content div:nth-child(1) {
-    background-color: whitesmoke; }
+    background-color: #e53a76; }
   .main-content div:nth-child(2) {
-    color: whitesmoke;
     background-color: #3ab2e5; }
 
 h2 {
@@ -84,18 +84,18 @@ h2 {
   padding: 15px 35px;
   margin-top: 30px;
   border-radius: 30px;
-  color: #e6e6e6;
-  background-color: #3ab2e5;
+  color: #e53a76;
+  background-color: whitesmoke;
   font-size: 1.3em; }
   .left-btn:hover {
-    border: 2px solid #3ab2e5;
-    color: #3ab2e5;
-    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    background-color: #e53a76;
     font-weight: 600;
     transition: background-color 0.2s linear; }
   .left-btn:active {
-    color: whitesmoke;
-    background-color: #3ab2e5; }
+    color: #e53a76;
+    background-color: whitesmoke; }
 
 .right-btn, .right-btn:visited {
   display: inline-block;
