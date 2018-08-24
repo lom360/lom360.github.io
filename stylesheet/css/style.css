@@ -2,6 +2,10 @@ body {
   margin: 0;
   background-color: whitesmoke; }
 
+p {
+  font-size: 1.3em;
+  display: inline-block; }
+
 nav {
   color: whitesmoke;
   height: 50px;
@@ -41,7 +45,8 @@ li a {
   font-size: 20px; }
 
 .hero-container {
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 30px; }
 
 .hero {
   height: 600px;
@@ -55,29 +60,30 @@ li a {
   min-height: 350px;
   padding: 10px 250px; }
   .about-me-content .about-me-top .my-image img {
-    height: 150px;
-    width: 150px;
-    margin: 25px;
+    height: 160px;
+    width: 160px;
     border-radius: 100%;
     float: left; }
   .about-me-content .about-me-top p {
-    margin-top: 10px;
     line-height: 3.5rem; }
     .about-me-content .about-me-top p:nth-of-type(1) {
       margin-top: 25px; }
+  .about-me-content .about-me-bot p {
+    margin: 15px 0px; }
 
-.main-content div {
-  min-height: 350px;
-  padding: 30px 50px;
-  text-align: center;
-  color: whitesmoke; }
-  .main-content div:nth-child(1) {
-    background-color: #e53a76; }
-  .main-content div:nth-child(2) {
-    background-color: #3ab2e5; }
-
-h2 {
-  margin-bottom: 30px; }
+.main-content {
+  margin-top: 55px; }
+  .main-content div {
+    min-height: 350px;
+    padding: 30px 50px;
+    text-align: center;
+    color: whitesmoke; }
+    .main-content div:nth-child(1) {
+      background-color: #e53a76; }
+    .main-content div:nth-child(2) {
+      background-color: #3ab2e5; }
+    .main-content div h2 {
+      margin-bottom: 30px; }
 
 .left-btn, .left-btn:visited {
   display: inline-block;
@@ -117,9 +123,5 @@ h2 {
 
 a, a:hover, a:active, a:visited, a:focus {
   text-decoration: none; }
-
-p {
-  font-size: 1.3em;
-  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
