@@ -57,17 +57,14 @@ li a {
 
 .about-me-content {
   min-height: 350px; }
-  .about-me-content .about-me-top {
-    width: inherit; }
-    .about-me-content .about-me-top .my-image {
-      height: 160px;
-      width: 160px;
-      padding: 0;
-      margin: 5px; }
-      .about-me-content .about-me-top .my-image img {
-        height: inherit;
-        width: inherit;
-        border-radius: 100%; }
+  .about-me-content .about-me-top .my-image {
+    height: 160px;
+    width: 160px;
+    padding: 0; }
+    .about-me-content .about-me-top .my-image img {
+      height: inherit;
+      width: inherit;
+      border-radius: 100%; }
 
 .my-works {
   margin-top: 55px; }

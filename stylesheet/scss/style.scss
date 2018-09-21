@@ -83,12 +83,11 @@ li a {
 .about-me-content {
     min-height: 350px;
     .about-me-top {
-        width: inherit;
         .my-image {
             height: 160px;
             width: 160px;
             padding: 0;
-            margin: 5px;
+            // margin: 5px;
             img {
                 height: inherit;
                 width: inherit;
