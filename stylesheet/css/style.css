@@ -56,34 +56,31 @@ li a {
   background-position: center top; }
 
 .about-me-content {
-  min-height: 350px;
-  padding: 10px 250px; }
-  .about-me-content .about-me-top .my-image img {
-    height: 160px;
-    width: 160px;
-    border-radius: 100%;
-    float: left;
-    position: relative;
-    top: 13px; }
-  .about-me-content .about-me-top p {
-    line-height: 3.5rem; }
-    .about-me-content .about-me-top p:nth-of-type(1) {
-      margin-top: 25px; }
-  .about-me-content .about-me-bot p {
-    margin: 15px 0px; }
+  min-height: 350px; }
+  .about-me-content .about-me-top {
+    width: inherit; }
+    .about-me-content .about-me-top .my-image {
+      height: 160px;
+      width: 160px;
+      padding: 0;
+      margin: 5px; }
+      .about-me-content .about-me-top .my-image img {
+        height: inherit;
+        width: inherit;
+        border-radius: 100%; }
 
-.main-content {
+.my-works {
   margin-top: 55px; }
-  .main-content div {
+  .my-works div {
     min-height: 350px;
     padding: 30px 50px;
     text-align: center;
     color: whitesmoke; }
-    .main-content div:nth-child(1) {
+    .my-works div:nth-child(1) {
       background-color: #e53a76; }
-    .main-content div:nth-child(2) {
+    .my-works div:nth-child(2) {
       background-color: #3ab2e5; }
-    .main-content div h2 {
+    .my-works div h2 {
       margin-bottom: 30px; }
 
 .left-btn, .left-btn:visited {

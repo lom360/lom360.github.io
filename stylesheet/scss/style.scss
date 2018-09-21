@@ -82,34 +82,23 @@ li a {
 // *** Main STARTS here ***
 .about-me-content {
     min-height: 350px;
-    padding: 10px 250px;
     .about-me-top {
+        width: inherit;
         .my-image {
-            img{
-                height: 160px;
-                width: 160px;
-                // margin: 25px;
+            height: 160px;
+            width: 160px;
+            padding: 0;
+            margin: 5px;
+            img {
+                height: inherit;
+                width: inherit;
                 border-radius: 100%;
-                float: left;
-                position: relative;
-                top: 13px;
             }
-        }
-        p {
-            line-height: 3.5rem;
-            &:nth-of-type(1) {
-                margin-top: 25px;
-            }
-        }
-    }
-    .about-me-bot {
-        p {
-            margin: 15px 0px;
         }
     }
 }
 
-.main-content {
+.my-works {
     margin-top: 55px;
     div {
         min-height: 350px;
