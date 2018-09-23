@@ -84,7 +84,7 @@ li a {
 // *** Main STARTS here ***
 .about-me-content {
     min-height: 350px;
-    padding: 10px 65px;
+    padding: 10px 60px;
     line-height: 32px;
     .about-me-top {
         .my-image {
@@ -97,6 +97,9 @@ li a {
                 width: inherit;
                 border-radius: 100%;
             }
+        }
+        .col-md-6 {
+            padding: 0;
         }
     }
     .about-me-bot {

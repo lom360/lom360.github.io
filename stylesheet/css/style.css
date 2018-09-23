@@ -58,7 +58,7 @@ li a {
 
 .about-me-content {
   min-height: 350px;
-  padding: 10px 65px;
+  padding: 10px 60px;
   line-height: 32px; }
   .about-me-content .about-me-top .my-image {
     height: 160px;
@@ -69,6 +69,8 @@ li a {
       height: inherit;
       width: inherit;
       border-radius: 100%; }
+  .about-me-content .about-me-top .col-md-6 {
+    padding: 0; }
   .about-me-content .about-me-bot {
     padding: 0; }
 
