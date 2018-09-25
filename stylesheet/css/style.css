@@ -73,6 +73,8 @@ li a {
     padding: 0; }
   .about-me-content .about-me-bot {
     padding: 0; }
+  .about-me-content p {
+    margin-top: 10px; }
 
 .my-works {
   margin-top: 55px; }
