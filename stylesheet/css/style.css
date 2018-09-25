@@ -64,7 +64,8 @@ li a {
     height: 160px;
     width: 160px;
     padding-left: 30px;
-    margin-right: 50px; }
+    margin-right: 50px;
+    text-align: center; }
     .about-me-content .about-me-top .my-image img {
       height: inherit;
       width: inherit;
