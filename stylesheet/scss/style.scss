@@ -85,29 +85,22 @@ li a {
 // *** Main STARTS here ***
 .about-me-content {
     min-height: 350px;
-    padding: 10px 25px;
     line-height: 32px;
     .about-me-top {
-        padding: 0 50px;
         text-align: center;
         .my-image {
             height: 160px;
-            width: 160px;
-            padding-left: 30px;
-            margin-right: 50px;
+            width: 200px;
             text-align: center;
             img {
                 height: inherit;
-                width: inherit;
+                width: 160px;
                 border-radius: 100%;
             }
         }
-        .col-md-6 {
-            padding: 0;
-        }
     }
     .about-me-bot {
-        @extend .about-me-top;
+        text-align: center;
     }
     p {
         margin-top: 10px;

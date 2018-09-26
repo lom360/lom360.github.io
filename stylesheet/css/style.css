@@ -60,23 +60,19 @@ li a {
 
 .about-me-content {
   min-height: 350px;
-  padding: 10px 25px;
   line-height: 32px; }
-  .about-me-content .about-me-top, .about-me-content .about-me-bot {
-    padding: 0 50px;
+  .about-me-content .about-me-top {
     text-align: center; }
-    .about-me-content .about-me-top .my-image, .about-me-content .about-me-bot .my-image {
+    .about-me-content .about-me-top .my-image {
       height: 160px;
-      width: 160px;
-      padding-left: 30px;
-      margin-right: 50px;
+      width: 200px;
       text-align: center; }
-      .about-me-content .about-me-top .my-image img, .about-me-content .about-me-bot .my-image img {
+      .about-me-content .about-me-top .my-image img {
         height: inherit;
-        width: inherit;
+        width: 160px;
         border-radius: 100%; }
-    .about-me-content .about-me-top .col-md-6, .about-me-content .about-me-bot .col-md-6 {
-      padding: 0; }
+  .about-me-content .about-me-bot {
+    text-align: center; }
   .about-me-content p {
     margin-top: 10px; }
 
