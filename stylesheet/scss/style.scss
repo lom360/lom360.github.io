@@ -13,6 +13,7 @@ $my-hero-link: url('../../assets/images/lake-view.jpg');
 
 body {
     margin: 0;
+    padding: 0;
     background-color: $primary-color;
 
 }
@@ -84,13 +85,15 @@ li a {
 // *** Main STARTS here ***
 .about-me-content {
     min-height: 350px;
-    padding: 10px 60px;
+    // padding: 10px 60px;
     line-height: 32px;
     .about-me-top {
+        padding: 0 50px;
+        text-align: center;
         .my-image {
             height: 160px;
             width: 160px;
-            padding-left: 30px;
+            // padding-left: 30px;
             margin-right: 50px;
             text-align: center;
             img {
@@ -104,15 +107,20 @@ li a {
         }
     }
     .about-me-bot {
-        padding: 0;
+        @extend .about-me-top;
     }
     p {
         margin-top: 10px;
     }
 }
 
+.my-works-container{
+    padding: 0;
+}
+
 .my-works {
     margin-top: 55px;
+    // padding: 0;
     div {
         min-height: 350px;
         padding: 30px 50px;
