@@ -13,7 +13,6 @@ $my-hero-link: url('../../assets/images/lake-view.jpg');
 
 body {
     margin: 0;
-    padding: 0;
     background-color: $primary-color;
 
 }
@@ -75,7 +74,7 @@ li a {
 
 .hero {
     height: 600px;
-    // max-width: 100%;
+    max-width: 100%;
     background-image: linear-gradient($transparent-black, $transparent-black), $my-hero-link;
     background-size: cover;
     background-repeat: no-repeat;
