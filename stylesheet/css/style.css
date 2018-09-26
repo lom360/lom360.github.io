@@ -52,6 +52,7 @@ li a {
 .hero {
   height: 600px;
   max-width: 1598px;
+  min-width: 300px;
   background-image: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../../assets/images/lake-view.jpg");
   background-size: cover;
   background-repeat: no-repeat;

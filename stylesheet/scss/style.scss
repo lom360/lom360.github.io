@@ -75,6 +75,7 @@ li a {
 .hero {
     height: 600px;
     max-width: 1598px;
+    min-width: 300px;
     background-image: linear-gradient($transparent-black, $transparent-black), $my-hero-link;
     background-size: cover;
     background-repeat: no-repeat;
