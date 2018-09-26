@@ -74,7 +74,7 @@ li a {
 
 .hero {
     height: 600px;
-    max-width: 100%;
+    max-width: 1598px;
     background-image: linear-gradient($transparent-black, $transparent-black), $my-hero-link;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,10 +111,6 @@ li a {
     p {
         margin-top: 10px;
     }
-}
-
-.my-works-container{
-    padding: 0;
 }
 
 .my-works {

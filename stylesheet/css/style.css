@@ -51,7 +51,7 @@ li a {
 
 .hero {
   height: 600px;
-  max-width: 100%;
+  max-width: 1598px;
   background-image: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url("../../assets/images/lake-view.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,9 +76,6 @@ li a {
       padding: 0; }
   .about-me-content p {
     margin-top: 10px; }
-
-.my-works-container {
-  padding: 0; }
 
 .my-works {
   margin-top: 55px; }
