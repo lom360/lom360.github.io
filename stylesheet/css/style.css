@@ -60,6 +60,7 @@ li a {
 
 .about-me-content {
   min-height: 350px;
+  padding: 10px 25px;
   line-height: 32px; }
   .about-me-content .about-me-top, .about-me-content .about-me-bot {
     padding: 0 50px;
@@ -67,6 +68,7 @@ li a {
     .about-me-content .about-me-top .my-image, .about-me-content .about-me-bot .my-image {
       height: 160px;
       width: 160px;
+      padding-left: 30px;
       margin-right: 50px;
       text-align: center; }
       .about-me-content .about-me-top .my-image img, .about-me-content .about-me-bot .my-image img {
