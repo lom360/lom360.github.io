@@ -71,7 +71,7 @@ li a {
       width: 160px;
       border-radius: 100%; }
   .about-me-content .about-me-top .col-lg-7 {
-    max-width: 772px; }
+    min-width: 53%; }
   .about-me-content p {
     margin-top: 10px; }
 
