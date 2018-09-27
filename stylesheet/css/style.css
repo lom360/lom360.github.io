@@ -60,19 +60,18 @@ li a {
 
 .about-me-content {
   min-height: 350px;
+  padding: 0px 50px;
   line-height: 32px; }
-  .about-me-content .about-me-top {
+  .about-me-content .about-me-top .my-image {
+    height: 160px;
+    width: 200px;
     text-align: center; }
-    .about-me-content .about-me-top .my-image {
-      height: 160px;
-      width: 200px;
-      text-align: center; }
-      .about-me-content .about-me-top .my-image img {
-        height: inherit;
-        width: 160px;
-        border-radius: 100%; }
-  .about-me-content .about-me-bot {
-    text-align: center; }
+    .about-me-content .about-me-top .my-image img {
+      height: inherit;
+      width: 160px;
+      border-radius: 100%; }
+  .about-me-content .about-me-top .col-lg-7 {
+    max-width: 772px; }
   .about-me-content p {
     margin-top: 10px; }
 
