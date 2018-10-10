@@ -62,6 +62,8 @@ li a {
   min-height: 350px;
   padding: 0px 50px;
   line-height: 32px; }
+  .about-me-content .row .col-md-8 {
+    text-align: center; }
   .about-me-content .about-me-top .my-image {
     height: 160px;
     width: 200px;
@@ -77,7 +79,7 @@ li a {
   margin-top: 55px; }
   .my-works div {
     min-height: 350px;
-    padding: 30px 50px;
+    padding: 30px 55px;
     text-align: center;
     color: whitesmoke; }
     .my-works div:nth-child(1) {
