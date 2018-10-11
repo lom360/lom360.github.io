@@ -78,7 +78,8 @@ li a {
 .my-works {
   margin-top: 55px; }
   .my-works div {
-    min-height: 350px;
+    min-height: 120px;
+    max-height: 350px;
     padding: 30px 55px;
     text-align: center;
     color: whitesmoke; }
@@ -88,11 +89,16 @@ li a {
       background-color: #3ab2e5; }
     .my-works div h2 {
       margin-bottom: 30px; }
+    .my-works div p {
+      margin: 0; }
+    .my-works div .btn-div {
+      display: inline-block;
+      height: 50px;
+      padding: 45px; }
 
 .left-btn, .left-btn:visited {
-  display: inline-block;
+  display: inline;
   padding: 15px 35px;
-  margin-top: 30px;
   border-radius: 30px;
   color: #e53a76;
   background-color: whitesmoke;
@@ -108,9 +114,8 @@ li a {
     background-color: whitesmoke; }
 
 .right-btn, .right-btn:visited {
-  display: inline-block;
+  display: inline;
   padding: 15px 35px;
-  margin-top: 30px;
   border-radius: 30px;
   color: #3ab2e5;
   background-color: whitesmoke;

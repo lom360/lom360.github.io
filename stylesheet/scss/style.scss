@@ -112,7 +112,8 @@ li a {
 .my-works {
     margin-top: 55px;
     div {
-        min-height: 350px;
+        min-height: 120px;
+        max-height: 350px;
         padding: 30px 55px;
         text-align: center;
         color: $primary-color;
@@ -125,13 +126,20 @@ li a {
         h2 {
             margin-bottom: 30px;
         }
+        p {
+            margin: 0;
+        }
+        .btn-div {
+            display: inline-block;
+            height: 50px;
+            padding: 45px;
+        }
     }
 }
 
 .left-btn {
-    display: inline-block;
+    display: inline;
     padding: 15px 35px;
-    margin-top: 30px;
     border-radius: 30px;
     color: $complimentary-pink;
     background-color: $primary-color;
@@ -154,9 +162,8 @@ li a {
 }
 
 .right-btn {
-    display: inline-block;
+    display: inline;
     padding: 15px 35px;
-    margin-top: 30px;
     border-radius: 30px;
     color: $complimentary-blue;
     background-color: $primary-color;
