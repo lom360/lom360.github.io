@@ -76,25 +76,24 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  margin-top: 55px; }
+  margin-top: 55px;
+  min-height: 120px;
+  padding: 1px; }
   .my-works div {
-    min-height: 120px;
-    max-height: 350px;
     padding: 30px 55px;
     text-align: center;
     color: whitesmoke; }
-    .my-works div:nth-child(1) {
-      background-color: #e53a76; }
-    .my-works div:nth-child(2) {
-      background-color: #3ab2e5; }
-    .my-works div h2 {
-      margin-bottom: 30px; }
     .my-works div p {
-      margin: 0; }
+      margin-bottom: 10px; }
     .my-works div .btn-div {
-      display: inline-block;
-      height: 50px;
-      padding: 45px; }
+      position: absolute;
+      bottom: 0; }
+  .my-works .red-box {
+    background-color: #e53a76;
+    height: inherit; }
+  .my-works .blue-box {
+    min-height: 100%;
+    background-color: #3ab2e5; }
 
 .left-btn, .left-btn:visited {
   display: inline;
