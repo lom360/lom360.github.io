@@ -75,4 +75,13 @@ li a {
   .about-me-content p {
     margin-top: 10px; }
 
+.my-works {
+  height: 200px; }
+  .my-works .red-box {
+    height: inherit;
+    background-color: #e53a76; }
+  .my-works .blue-box {
+    height: inherit;
+    background-color: #3ab2e5; }
+
 /*# sourceMappingURL=style.css.map */

@@ -111,11 +111,14 @@ li a {
 
 
 .my-works {
+    height: 200px;
     .red-box {
-
+        height: inherit;
+        background-color: $complimentary-pink;
     }
     .blue-box {
-        
+        height: inherit;
+        background-color: $complimentary-blue;
     }
 }
 
