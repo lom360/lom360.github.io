@@ -76,7 +76,9 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  height: 200px; }
+  height: 250px;
+  max-height: 750px;
+  text-align: center; }
   .my-works .red-box {
     height: inherit;
     background-color: #e53a76; }
