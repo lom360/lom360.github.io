@@ -111,15 +111,26 @@ li a {
 
 
 .my-works {
-    height: 250px;
-    max-height: 750px;
+    height: 350px;
+    // max-height: 750px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     text-align: center;
     .red-box {
-        height: inherit;
+        // height: inherit;
         background-color: $complimentary-pink;
+        .box-header {
+            height: 20%;
+        }
+        .box-paragraph {
+            height: 60%;
+        }
+        .box-button {
+            height: 20%;
+        }
     }
     .blue-box {
-        height: inherit;
+        // height: inherit;
         background-color: $complimentary-blue;
     }
 }

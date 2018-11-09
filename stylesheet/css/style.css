@@ -76,14 +76,19 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  height: 250px;
-  max-height: 750px;
+  height: 350px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   text-align: center; }
   .my-works .red-box {
-    height: inherit;
     background-color: #e53a76; }
+    .my-works .red-box .box-header {
+      height: 20%; }
+    .my-works .red-box .box-paragraph {
+      height: 60%; }
+    .my-works .red-box .box-button {
+      height: 20%; }
   .my-works .blue-box {
-    height: inherit;
     background-color: #3ab2e5; }
 
 /*# sourceMappingURL=style.css.map */
