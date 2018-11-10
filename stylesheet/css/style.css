@@ -76,9 +76,7 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  height: 450px;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  height: 280px;
   text-align: center; }
   .my-works .red-box {
     background-color: #e53a76;
