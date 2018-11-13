@@ -77,6 +77,7 @@ li a {
 
 .my-works {
   height: 280px;
+  max-height: 750px;
   text-align: center; }
   .my-works .red-box {
     background-color: #e53a76;

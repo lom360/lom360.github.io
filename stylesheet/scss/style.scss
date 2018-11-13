@@ -112,12 +112,11 @@ li a {
 
 .my-works {
     height: 280px;
-    // max-height: 750px;
+    max-height: 750px;
     // padding-top: 1px;
     // padding-bottom: 1px;
     text-align: center;
     .red-box {
-        // height: inherit;
         background-color: $complimentary-pink;
         height: inherit;
         .box-header {
