@@ -111,7 +111,7 @@ li a {
 
 
 .my-works {
-    height: 25%;
+    height: 500px;
     text-align: center;
     .red-box {
         background-color: $complimentary-pink;
@@ -122,6 +122,7 @@ li a {
         .box-paragraph {
             height: 60%;
             padding: 10px;
+            margin-bottom: 26px;
         }
         .box-button {
             height: 10%;
@@ -129,7 +130,6 @@ li a {
         }
     }
     .blue-box {
-        height: inherit;
         background-color: $complimentary-blue;
         .box-header {
             height: 30%;

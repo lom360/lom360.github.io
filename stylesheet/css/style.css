@@ -76,7 +76,7 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  height: 25%;
+  height: 500px;
   text-align: center; }
   .my-works .red-box {
     background-color: #e53a76; }
@@ -85,12 +85,12 @@ li a {
       padding: 10px; }
     .my-works .red-box .box-paragraph {
       height: 60%;
-      padding: 10px; }
+      padding: 10px;
+      margin-bottom: 26px; }
     .my-works .red-box .box-button {
       height: 10%;
       padding: 10px; }
   .my-works .blue-box {
-    height: inherit;
     background-color: #3ab2e5; }
     .my-works .blue-box .box-header {
       height: 30%;
