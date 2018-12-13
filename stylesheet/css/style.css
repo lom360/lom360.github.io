@@ -76,10 +76,12 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  height: 500px;
+  height: 400px;
   text-align: center; }
   .my-works .red-box {
-    background-color: #e53a76; }
+    background-color: #e53a76;
+    display: inline-block;
+    height: inherit; }
     .my-works .red-box .box-header {
       height: 30%;
       padding: 10px; }
@@ -91,7 +93,9 @@ li a {
       height: 10%;
       padding: 10px; }
   .my-works .blue-box {
-    background-color: #3ab2e5; }
+    background-color: #3ab2e5;
+    display: inline-block;
+    height: inherit; }
     .my-works .blue-box .box-header {
       height: 30%;
       padding: 10px; }

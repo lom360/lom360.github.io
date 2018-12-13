@@ -111,12 +111,12 @@ li a {
 
 
 .my-works {
-    height: 500px;
+    height: 400px;
     text-align: center;
     .red-box {
         background-color: $complimentary-pink;
         display: inline-block;
-        height: 100%;
+        height: inherit;
         .box-header {
             height: 30%;
             padding: 10px;
@@ -133,6 +133,8 @@ li a {
     }
     .blue-box {
         background-color: $complimentary-blue;
+        display: inline-block;
+        height: inherit;
         .box-header {
             height: 30%;
             padding: 10px;
