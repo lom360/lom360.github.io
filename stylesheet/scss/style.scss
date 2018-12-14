@@ -1,4 +1,5 @@
-$primary-color: rgb(245,245,245);
+// $primary-color: rgb(255,255,255);
+$primary-color: #efefef;
 // $complimentary-pink: rgb(229,58,118);
 $complimentary-pink: #fd6097;
 // $complimentary-blue: rgb(58,178,229);
@@ -115,6 +116,7 @@ li a {
 .my-works {
     height: 400px;
     text-align: center;
+    color: $primary-color;
     .red-box {
         background-color: $complimentary-pink;
         // display: inline-block;

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: whitesmoke; }
+  background-color: #efefef; }
 
 p {
   font-size: 1.3em;
@@ -8,7 +8,7 @@ p {
   font-family: "Gill Sans", sans-serif; }
 
 nav {
-  color: whitesmoke;
+  color: #efefef;
   height: 50px;
   width: 100%;
   z-index: 2;
@@ -42,7 +42,7 @@ li {
 
 li a {
   display: inline;
-  color: whitesmoke;
+  color: #efefef;
   font-size: 20px; }
 
 .hero-container {
@@ -77,7 +77,8 @@ li a {
 
 .my-works {
   height: 400px;
-  text-align: center; }
+  text-align: center;
+  color: #efefef; }
   .my-works .red-box {
     background-color: #fd6097;
     height: inherit; }
