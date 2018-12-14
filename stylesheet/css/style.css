@@ -76,32 +76,28 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  height: 400px;
+  height: 300px;
   text-align: center;
   color: #efefef; }
   .my-works .red-box {
     background-color: #fd6097;
+    padding: 10px 35px 20px 35px;
     height: inherit; }
     .my-works .red-box .box-header {
-      height: 30%;
-      padding: 10px; }
+      height: 30%; }
     .my-works .red-box .box-paragraph {
-      height: 60%;
-      padding: 10px; }
+      height: 60%; }
     .my-works .red-box .box-button {
-      height: 10%;
-      padding: 10px; }
+      height: 20%; }
   .my-works .blue-box {
     background-color: #60cefd;
+    padding: 10px 35px 20px 35px;
     height: inherit; }
     .my-works .blue-box .box-header {
-      height: 20%;
-      padding: 10px; }
+      height: 30%; }
     .my-works .blue-box .box-paragraph {
-      height: 60%;
-      padding: 10px; }
+      height: 60%; }
     .my-works .blue-box .box-button {
-      height: 20%;
-      padding: 10px; }
+      height: 20%; }
 
 /*# sourceMappingURL=style.css.map */

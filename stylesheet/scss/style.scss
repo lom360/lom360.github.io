@@ -114,41 +114,36 @@ li a {
 
 
 .my-works {
-    height: 400px;
+    height: 300px;
+    // padding: 10px;
     text-align: center;
     color: $primary-color;
     .red-box {
         background-color: $complimentary-pink;
-        // display: inline-block;
+        padding: 10px 35px 20px 35px;
         height: inherit;
         .box-header {
             height: 30%;
-            padding: 10px;
         }
         .box-paragraph {
             height: 60%;
-            padding: 10px;
         }
         .box-button {
-            height: 10%;
-            padding: 10px;
+            height: 20%;
         }
     }
     .blue-box {
         background-color: $complimentary-blue;
-        // display: inline-block;
+        padding: 10px 35px 20px 35px;
         height: inherit;
         .box-header {
-            height: 20%;
-            padding: 10px;
+            height: 30%;
         }
         .box-paragraph {
             height: 60%;
-            padding: 10px;
         }
         .box-button {
             height: 20%;
-            padding: 10px;
         }
     }
 }
