@@ -76,7 +76,7 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  height: 300px;
+  height: 350px;
   text-align: center;
   color: #efefef; }
   .my-works .red-box {
@@ -84,20 +84,20 @@ li a {
     padding: 10px 35px 20px 35px;
     height: inherit; }
     .my-works .red-box .box-header {
-      height: 30%; }
+      height: 25%; }
     .my-works .red-box .box-paragraph {
-      height: 60%; }
+      height: 50%; }
     .my-works .red-box .box-button {
-      height: 20%; }
+      height: 25%; }
   .my-works .blue-box {
     background-color: #60cefd;
     padding: 10px 35px 20px 35px;
     height: inherit; }
     .my-works .blue-box .box-header {
-      height: 30%; }
+      height: 25%; }
     .my-works .blue-box .box-paragraph {
-      height: 60%; }
+      height: 50%; }
     .my-works .blue-box .box-button {
-      height: 20%; }
+      height: 25%; }
 
 /*# sourceMappingURL=style.css.map */
