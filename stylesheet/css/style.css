@@ -80,40 +80,38 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  height: 350px;
+  min-height: 350px;
   text-align: center;
   color: #efefef; }
   .my-works .red-box {
     background-color: #fd6097;
     padding: 10px 35px 20px 35px;
-    height: inherit; }
+    min-height: inherit; }
     .my-works .red-box .box-header {
-      height: 25%; }
+      margin-bottom: 25px; }
     .my-works .red-box .box-paragraph {
-      height: 50%; }
-    .my-works .red-box .box-button {
-      height: 25%; }
-      .my-works .red-box .box-button a {
-        width: 175px;
-        height: 65px;
-        padding-top: 15px;
-        border: 5px solid transparent;
-        border-radius: 50px;
-        display: inline-block;
-        font-size: 20px;
-        background-color: #60cefd;
-        color: #efefef;
-        position: relative;
-        bottom: 30px; }
-        .my-works .red-box .box-button a:hover {
-          text-decoration: none;
-          font-weight: 700;
-          background-color: #fd6097;
-          border-color: #efefef; }
+      margin-bottom: 45px; }
+    .my-works .red-box .box-button a {
+      width: 175px;
+      height: 65px;
+      padding-top: 15px;
+      border: 5px solid transparent;
+      border-radius: 50px;
+      display: inline-block;
+      font-size: 20px;
+      background-color: #60cefd;
+      color: #efefef;
+      position: relative;
+      bottom: 30px; }
+      .my-works .red-box .box-button a:hover {
+        text-decoration: none;
+        font-weight: 700;
+        background-color: #fd6097;
+        border-color: #efefef; }
   .my-works .blue-box {
     background-color: #60cefd;
     padding: 10px 35px 20px 35px;
-    height: inherit; }
+    min-height: inherit; }
     .my-works .blue-box .box-header {
       height: 25%; }
     .my-works .blue-box .box-paragraph {

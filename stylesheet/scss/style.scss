@@ -119,22 +119,23 @@ li a {
 
 
 .my-works {
-    height: 350px;
-    // padding: 10px;
+    min-height: 350px;
     text-align: center;
     color: $primary-color;
     .red-box {
         background-color: $complimentary-pink;
         padding: 10px 35px 20px 35px;
-        height: inherit;
+        min-height: inherit;
         .box-header {
-            height: 25%;
+            // height: 25%;
+            margin-bottom: 25px;
         }
         .box-paragraph {
-            height: 50%;
+            // height: 50%;
+            margin-bottom: 45px;
         }
         .box-button {
-            height: 25%;
+            // height: 25%;
             a {
                 width: 175px;
                 height: 65px;
@@ -159,7 +160,7 @@ li a {
     .blue-box {
         background-color: $complimentary-blue;
         padding: 10px 35px 20px 35px;
-        height: inherit;
+        min-height: inherit;
         .box-header {
             height: 25%;
         }
