@@ -130,6 +130,13 @@ li a {
         }
         .box-button {
             height: 25%;
+            a {
+                width: 200px;
+                height: 75px;
+                padding-top: 30px;
+                display:inline-block;
+                background-color: $complimentary-blue;
+            }
         }
     }
     .blue-box {
@@ -147,81 +154,3 @@ li a {
         }
     }
 }
-
-// .my-works {
-//     margin-top: 55px;
-//     min-height: 120px;
-//     padding: 1px;
-//     div {
-//         padding: 30px 55px;
-//         text-align: center;
-//         color: $primary-color;
-//         p {
-//             margin-bottom: 10px;
-//         }
-//         .btn-div {
-//             position: absolute;
-//             bottom: 0;
-//         }
-//     }
-//     .red-box {
-//         background-color: $complimentary-pink;
-//         height: inherit;
-//     }
-//     .blue-box {
-//         min-height: 100%;
-//         background-color: $complimentary-blue;
-//     }
-// }
-
-// .left-btn {
-//     display: inline;
-//     padding: 15px 35px;
-//     border-radius: 30px;
-//     color: $complimentary-pink;
-//     background-color: $primary-color;
-//     font-size: 1.3em;
-//     &:hover {
-//         border: 2px solid $primary-color;
-//         color: $primary-color;
-//         background-color: $complimentary-pink;
-//         font-weight: 600;
-//         transition: background-color 0.2s linear;
-//     }
-//     &:active {
-//         color: $complimentary-pink;
-//         background-color: $primary-color;
-//     }
-// }
-
-// .left-btn:visited {
-//     @extend .left-btn;
-// }
-
-// .right-btn {
-//     display: inline;
-//     padding: 15px 35px;
-//     border-radius: 30px;
-//     color: $complimentary-blue;
-//     background-color: $primary-color;
-//     font-size: 1.3em;
-//     &:hover {
-//         border: 2px solid $primary-color;
-//         color: $primary-color;
-//         background-color: $complimentary-blue;
-//         font-weight: 600;
-//         transition: background-color 0.2s linear;        
-//     }
-//     &:active {
-//         color: $complimentary-blue;
-//         background-color: $primary-color;        
-//     }
-// }
-
-// .right-btn:visited {
-//     @extend .right-btn;
-// }
-
-// a, a:hover, a:active, a:visited, a:focus {
-//     text-decoration: none;
-// }
