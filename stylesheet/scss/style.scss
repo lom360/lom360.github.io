@@ -16,8 +16,13 @@ $my-hero-link: url('../../assets/images/lake-view.jpg');
 
 body {
     margin: 0;
+    text-decoration: none;
     background-color: $primary-color;
 
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
 }
 
 p {
@@ -144,11 +149,9 @@ li a {
                 bottom: 30px;
                 &:hover, {
                     text-decoration: none;
+                    font-weight: 700;
                     background-color: $complimentary-pink;
                     border-color: $primary-color;
-                }
-                &:activate {
-                    text-decoration: none;
                 }
             }
         }

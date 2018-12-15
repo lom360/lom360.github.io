@@ -1,6 +1,10 @@
 body {
   margin: 0;
+  text-decoration: none;
   background-color: #efefef; }
+
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration: none; }
 
 p {
   font-size: 1.3em;
@@ -103,10 +107,9 @@ li a {
         bottom: 30px; }
         .my-works .red-box .box-button a:hover {
           text-decoration: none;
+          font-weight: 700;
           background-color: #fd6097;
           border-color: #efefef; }
-        .my-works .red-box .box-button a:activate {
-          text-decoration: none; }
   .my-works .blue-box {
     background-color: #60cefd;
     padding: 10px 35px 20px 35px;
