@@ -90,11 +90,16 @@ li a {
     .my-works .red-box .box-button {
       height: 25%; }
       .my-works .red-box .box-button a {
-        width: 200px;
-        height: 75px;
-        padding-top: 30px;
+        width: 175px;
+        height: 65px;
+        padding-top: 20px;
+        border-radius: 50px;
         display: inline-block;
-        background-color: #60cefd; }
+        font-size: 20px;
+        background-color: #60cefd;
+        color: #efefef;
+        position: relative;
+        bottom: 30px; }
   .my-works .blue-box {
     background-color: #60cefd;
     padding: 10px 35px 20px 35px;

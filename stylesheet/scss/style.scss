@@ -131,11 +131,16 @@ li a {
         .box-button {
             height: 25%;
             a {
-                width: 200px;
-                height: 75px;
-                padding-top: 30px;
+                width: 175px;
+                height: 65px;
+                padding-top: 20px;
+                border-radius: 50px;
                 display:inline-block;
+                font-size: 20px;
                 background-color: $complimentary-blue;
+                color: $primary-color;
+                position: relative;
+                bottom: 30px;
             }
         }
     }
