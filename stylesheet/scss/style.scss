@@ -7,6 +7,30 @@ $complimentary-blue: #60cefd;
 $transparent-black: rgba(30, 30, 30, 0.5);
 $my-hero-link: url('../../assets/images/lake-view.jpg');
 
+// This mixin will be applied in my-works section.
+@mixin button-colors($main-color, $secondary-color){
+    height: 25%;
+    a {
+        width: 175px;
+        height: 65px;
+        padding-top: 15px;
+        border: 5px solid transparent;
+        border-radius: 50px;
+        display:inline-block;
+        font-size: 20px;
+        background-color: $main-color;
+        color: $primary-color;
+        position: relative;
+        bottom: 30px;
+        &:hover, {
+            text-decoration: none;
+            font-weight: 700;
+            background-color: $secondary-color;
+            border-color: $primary-color;
+        }
+    }
+}
+
 @mixin transition($property1, $property2, $property3) {
     transition: $property1 $property2  $property3;
     -webkit-transition: $property1 $property2  $property3;
@@ -170,7 +194,7 @@ li a {
             margin-bottom: 45px;
         }
         .box-button {
-            height: 25%;
+            @include button-colors($complimentary-pink, $complimentary-blue)
         }
     }
 }

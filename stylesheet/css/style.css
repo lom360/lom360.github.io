@@ -124,5 +124,22 @@ li a {
       margin-bottom: 45px; }
     .my-works .blue-box .box-button {
       height: 25%; }
+      .my-works .blue-box .box-button a {
+        width: 175px;
+        height: 65px;
+        padding-top: 15px;
+        border: 5px solid transparent;
+        border-radius: 50px;
+        display: inline-block;
+        font-size: 20px;
+        background-color: #fd6097;
+        color: #efefef;
+        position: relative;
+        bottom: 30px; }
+        .my-works .blue-box .box-button a:hover {
+          text-decoration: none;
+          font-weight: 700;
+          background-color: #60cefd;
+          border-color: #efefef; }
 
 /*# sourceMappingURL=style.css.map */
