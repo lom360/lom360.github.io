@@ -5,24 +5,34 @@ $transparent-black: rgba(30, 30, 30, 0.5);
 $my-hero-link: url('../../assets/images/lake-view.jpg');
 
 // This mixin will be applied in my-works section.
-@mixin button-colors($main-color, $secondary-color){
-    height: 25%;
-    margin-top: 10px;
-    a {
-        width: 175px;
-        height: 65px;
-        padding-top: 15px;
-        border: 5px solid transparent;
-        border-radius: 50px;
-        display:inline-block;
-        font-size: 20px;
-        background-color: $main-color;
-        color: $primary-color;
-        &:hover, {
-            text-decoration: none;
-            font-weight: 700;
+@mixin column-colors($main-color, $secondary-color){
+    background-color: $main-color;
+    min-height: inherit;
+    padding: 25px 30px;
+    .box-header {
+        height: 25%;
+    }
+    .box-paragraph {
+        height: 50%;
+        background-color: grey;
+    }
+    .box-button {
+        a {
+            width: 175px;
+            height: 65px;
+            padding-top: 15px;
+            border: 5px solid transparent;
+            border-radius: 50px;
+            display:inline-block;
+            font-size: 20px;
             background-color: $secondary-color;
-            border-color: $primary-color;
+            color: $primary-color;
+            &:hover, {
+                text-decoration: none;
+                font-weight: 700;
+                background-color: $secondary-color;
+                border-color: $primary-color;
+            }
         }
     }
 }
@@ -143,31 +153,9 @@ li a {
     text-align: center;
     color: $primary-color;
     .red-box {
-        background-color: $complimentary-pink;
-        min-height: inherit;
-        padding: 25px 30px;
-        .box-header {
-            height: 25%;
-        }
-        .box-paragraph {
-            height: 50%;
-        }
-        .box-button {
-            @include button-colors($complimentary-blue, $complimentary-pink);
-        }
+        @include column-colors($complimentary-pink, $complimentary-blue);
     }
     .blue-box {
-        background-color: $complimentary-blue;
-        min-height: inherit;
-        padding: 25px 30px;
-        .box-header {
-            height: 25%;
-        }
-        .box-paragraph {
-            height: 50%;
-        }
-        .box-button {
-            @include button-colors($complimentary-pink, $complimentary-blue)
-        }
+        @include column-colors($complimentary-blue, $complimentary-pink);
     }
 }
