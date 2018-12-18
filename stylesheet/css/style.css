@@ -80,21 +80,22 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  min-height: 350px;
+  min-height: 325px;
   text-align: center;
   color: #efefef; }
   .my-works .red-box {
     background-color: #fd6097;
-    padding: 20px 45px;
-    min-height: inherit; }
+    padding: 20px 35px;
+    min-height: auto; }
     .my-works .red-box .box-header {
       height: 25%;
       margin-bottom: 25px; }
     .my-works .red-box .box-paragraph {
-      height: 50%;
-      margin-bottom: 45px; }
+      height: 50%; }
     .my-works .red-box .box-button {
-      height: 25%; }
+      height: 25%;
+      padding-top: 10%;
+      background-color: yellow; }
       .my-works .red-box .box-button a {
         width: 175px;
         height: 65px;
@@ -104,9 +105,7 @@ li a {
         display: inline-block;
         font-size: 20px;
         background-color: #60cefd;
-        color: #efefef;
-        position: relative;
-        bottom: 30px; }
+        color: #efefef; }
         .my-works .red-box .box-button a:hover {
           text-decoration: none;
           font-weight: 700;
@@ -114,16 +113,17 @@ li a {
           border-color: #efefef; }
   .my-works .blue-box {
     background-color: #60cefd;
-    padding: 20px 45px;
-    min-height: inherit; }
+    padding: 20px 30px;
+    min-height: auto; }
     .my-works .blue-box .box-header {
       height: 25%;
       margin-bottom: 25px; }
     .my-works .blue-box .box-paragraph {
-      height: 50%;
-      margin-bottom: 45px; }
+      height: 50%; }
     .my-works .blue-box .box-button {
-      height: 25%; }
+      height: 25%;
+      padding-top: 10%;
+      background-color: yellow; }
       .my-works .blue-box .box-button a {
         width: 175px;
         height: 65px;
@@ -133,9 +133,7 @@ li a {
         display: inline-block;
         font-size: 20px;
         background-color: #fd6097;
-        color: #efefef;
-        position: relative;
-        bottom: 30px; }
+        color: #efefef; }
         .my-works .blue-box .box-button a:hover {
           text-decoration: none;
           font-weight: 700;
