@@ -1,8 +1,5 @@
-// $primary-color: rgb(255,255,255);
 $primary-color: #efefef;
-// $complimentary-pink: rgb(229,58,118);
 $complimentary-pink: #fd6097;
-// $complimentary-blue: rgb(58,178,229);
 $complimentary-blue: #60cefd;
 $transparent-black: rgba(30, 30, 30, 0.5);
 $my-hero-link: url('../../assets/images/lake-view.jpg');
@@ -10,8 +7,7 @@ $my-hero-link: url('../../assets/images/lake-view.jpg');
 // This mixin will be applied in my-works section.
 @mixin button-colors($main-color, $secondary-color){
     height: 25%;
-    padding-top: 10%;
-    background-color: yellow;
+    margin-top: 10px;
     a {
         width: 175px;
         height: 65px;
@@ -22,8 +18,6 @@ $my-hero-link: url('../../assets/images/lake-view.jpg');
         font-size: 20px;
         background-color: $main-color;
         color: $primary-color;
-        // position: relative;
-        // bottom: 30px;
         &:hover, {
             text-decoration: none;
             font-weight: 700;
@@ -150,15 +144,13 @@ li a {
     color: $primary-color;
     .red-box {
         background-color: $complimentary-pink;
-        padding: 20px 35px;
-        min-height: auto;
+        min-height: inherit;
+        padding: 25px 30px 5px;
         .box-header {
             height: 25%;
-            margin-bottom: 25px;
         }
         .box-paragraph {
             height: 50%;
-            // margin-bottom: 45px;
         }
         .box-button {
             @include button-colors($complimentary-blue, $complimentary-pink);
@@ -166,15 +158,13 @@ li a {
     }
     .blue-box {
         background-color: $complimentary-blue;
-        padding: 20px 30px;
-        min-height: auto;
+        min-height: inherit;
+        padding: 25px 30px 5px;
         .box-header {
             height: 25%;
-            margin-bottom: 25px;
         }
         .box-paragraph {
             height: 50%;
-            // margin-bottom: 45px;
         }
         .box-button {
             @include button-colors($complimentary-pink, $complimentary-blue)

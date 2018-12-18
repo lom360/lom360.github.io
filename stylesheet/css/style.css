@@ -85,17 +85,15 @@ li a {
   color: #efefef; }
   .my-works .red-box {
     background-color: #fd6097;
-    padding: 20px 35px;
-    min-height: auto; }
+    min-height: inherit;
+    padding: 25px 30px 5px; }
     .my-works .red-box .box-header {
-      height: 25%;
-      margin-bottom: 25px; }
+      height: 25%; }
     .my-works .red-box .box-paragraph {
       height: 50%; }
     .my-works .red-box .box-button {
       height: 25%;
-      padding-top: 10%;
-      background-color: yellow; }
+      margin-top: 10px; }
       .my-works .red-box .box-button a {
         width: 175px;
         height: 65px;
@@ -113,17 +111,15 @@ li a {
           border-color: #efefef; }
   .my-works .blue-box {
     background-color: #60cefd;
-    padding: 20px 30px;
-    min-height: auto; }
+    min-height: inherit;
+    padding: 25px 30px 5px; }
     .my-works .blue-box .box-header {
-      height: 25%;
-      margin-bottom: 25px; }
+      height: 25%; }
     .my-works .blue-box .box-paragraph {
       height: 50%; }
     .my-works .blue-box .box-button {
       height: 25%;
-      padding-top: 10%;
-      background-color: yellow; }
+      margin-top: 10px; }
       .my-works .blue-box .box-button a {
         width: 175px;
         height: 65px;
