@@ -4,7 +4,6 @@ $complimentary-blue: #60cefd;
 $transparent-black: rgba(30, 30, 30, 0.5);
 $my-hero-link: url('../../assets/images/lake-view.jpg');
 
-// Need ot fix some stuff
 // This mixin will be applied in my-works section.
 @mixin column-colors($main-color, $secondary-color){
     background-color: $main-color;
