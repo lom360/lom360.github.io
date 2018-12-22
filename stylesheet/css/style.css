@@ -80,58 +80,64 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  height: 30em;
+  min-height: 325px;
   text-align: center;
   color: #efefef; }
   .my-works .red-box {
     background-color: #fd6097;
-    height: inherit;
-    padding: 20px 50px 35px; }
+    min-height: inherit;
+    padding: 20px 73px 35px; }
     .my-works .red-box .box-header {
       height: 10%;
-      margin-bottom: 25px; }
+      margin-bottom: 3rem; }
     .my-works .red-box .box-paragraph {
+      height: 40%;
       line-height: 28px;
-      margin-bottom: 20px; }
-    .my-works .red-box .box-button a {
-      width: 175px;
-      height: 65px;
-      padding-top: 15px;
-      border: 5px solid transparent;
-      border-radius: 50px;
-      display: inline-block;
-      font-size: 20px;
-      background-color: #60cefd;
-      color: #efefef; }
-      .my-works .red-box .box-button a:hover {
-        text-decoration: none;
-        font-weight: 700;
+      margin-bottom: 3.5rem; }
+    .my-works .red-box .box-button {
+      height: 15%; }
+      .my-works .red-box .box-button a {
+        width: 175px;
+        height: 65px;
+        padding-top: 15px;
+        border: 5px solid transparent;
+        border-radius: 50px;
+        display: inline-block;
+        font-size: 20px;
         background-color: #60cefd;
-        border-color: #efefef; }
+        color: #efefef; }
+        .my-works .red-box .box-button a:hover {
+          text-decoration: none;
+          font-weight: 700;
+          background-color: #60cefd;
+          border-color: #efefef; }
   .my-works .blue-box {
     background-color: #60cefd;
-    height: inherit;
-    padding: 20px 50px 35px; }
+    min-height: inherit;
+    padding: 20px 73px 35px; }
     .my-works .blue-box .box-header {
       height: 10%;
-      margin-bottom: 25px; }
+      margin-bottom: 3rem; }
     .my-works .blue-box .box-paragraph {
+      height: 40%;
       line-height: 28px;
-      margin-bottom: 20px; }
-    .my-works .blue-box .box-button a {
-      width: 175px;
-      height: 65px;
-      padding-top: 15px;
-      border: 5px solid transparent;
-      border-radius: 50px;
-      display: inline-block;
-      font-size: 20px;
-      background-color: #fd6097;
-      color: #efefef; }
-      .my-works .blue-box .box-button a:hover {
-        text-decoration: none;
-        font-weight: 700;
+      margin-bottom: 3.5rem; }
+    .my-works .blue-box .box-button {
+      height: 15%; }
+      .my-works .blue-box .box-button a {
+        width: 175px;
+        height: 65px;
+        padding-top: 15px;
+        border: 5px solid transparent;
+        border-radius: 50px;
+        display: inline-block;
+        font-size: 20px;
         background-color: #fd6097;
-        border-color: #efefef; }
+        color: #efefef; }
+        .my-works .blue-box .box-button a:hover {
+          text-decoration: none;
+          font-weight: 700;
+          background-color: #fd6097;
+          border-color: #efefef; }
 
 /*# sourceMappingURL=style.css.map */
