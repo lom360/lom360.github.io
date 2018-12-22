@@ -80,66 +80,58 @@ li a {
     margin-top: 10px; }
 
 .my-works {
-  min-height: 325px;
+  height: 30em;
   text-align: center;
   color: #efefef; }
   .my-works .red-box {
     background-color: #fd6097;
-    min-height: inherit;
+    height: inherit;
     padding: 20px 50px 35px; }
     .my-works .red-box .box-header {
-      height: 25%;
+      height: 10%;
       margin-bottom: 25px; }
     .my-works .red-box .box-paragraph {
-      min-height: 170px;
       line-height: 28px;
       margin-bottom: 20px; }
-    .my-works .red-box .box-button {
-      position: absolute;
-      bottom: 10px; }
-      .my-works .red-box .box-button a {
-        width: 175px;
-        height: 65px;
-        padding-top: 15px;
-        border: 5px solid transparent;
-        border-radius: 50px;
-        display: inline-block;
-        font-size: 20px;
+    .my-works .red-box .box-button a {
+      width: 175px;
+      height: 65px;
+      padding-top: 15px;
+      border: 5px solid transparent;
+      border-radius: 50px;
+      display: inline-block;
+      font-size: 20px;
+      background-color: #60cefd;
+      color: #efefef; }
+      .my-works .red-box .box-button a:hover {
+        text-decoration: none;
+        font-weight: 700;
         background-color: #60cefd;
-        color: #efefef; }
-        .my-works .red-box .box-button a:hover {
-          text-decoration: none;
-          font-weight: 700;
-          background-color: #60cefd;
-          border-color: #efefef; }
+        border-color: #efefef; }
   .my-works .blue-box {
     background-color: #60cefd;
-    min-height: inherit;
+    height: inherit;
     padding: 20px 50px 35px; }
     .my-works .blue-box .box-header {
-      height: 25%;
+      height: 10%;
       margin-bottom: 25px; }
     .my-works .blue-box .box-paragraph {
-      min-height: 170px;
       line-height: 28px;
       margin-bottom: 20px; }
-    .my-works .blue-box .box-button {
-      position: absolute;
-      bottom: 10px; }
-      .my-works .blue-box .box-button a {
-        width: 175px;
-        height: 65px;
-        padding-top: 15px;
-        border: 5px solid transparent;
-        border-radius: 50px;
-        display: inline-block;
-        font-size: 20px;
+    .my-works .blue-box .box-button a {
+      width: 175px;
+      height: 65px;
+      padding-top: 15px;
+      border: 5px solid transparent;
+      border-radius: 50px;
+      display: inline-block;
+      font-size: 20px;
+      background-color: #fd6097;
+      color: #efefef; }
+      .my-works .blue-box .box-button a:hover {
+        text-decoration: none;
+        font-weight: 700;
         background-color: #fd6097;
-        color: #efefef; }
-        .my-works .blue-box .box-button a:hover {
-          text-decoration: none;
-          font-weight: 700;
-          background-color: #fd6097;
-          border-color: #efefef; }
+        border-color: #efefef; }
 
 /*# sourceMappingURL=style.css.map */

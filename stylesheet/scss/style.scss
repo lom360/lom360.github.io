@@ -7,21 +7,18 @@ $my-hero-link: url('../../assets/images/lake-view.jpg');
 // This mixin will be applied in my-works section.
 @mixin column-colors($main-color, $secondary-color){
     background-color: $main-color;
-    min-height: inherit;
+    height: inherit;
     padding: 20px 50px 35px;
     .box-header {
-        height: 25%;
+        height: 10%;
         margin-bottom: 25px;
     }
     .box-paragraph {
-        min-height: 170px;
+        // min-height: 150px;
         line-height: 28px;
         margin-bottom: 20px;
     }
     .box-button {
-        
-        position: absolute;
-        bottom: 10px;
         a {
             width: 175px;
             height: 65px;
@@ -153,7 +150,9 @@ li a {
 }
 
 .my-works {
-    min-height: 325px;
+    // min-height: 325px;
+    // height: 350px;
+    height: 30em;
     text-align: center;
     color: $primary-color;
     .red-box {
