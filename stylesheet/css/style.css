@@ -65,6 +65,7 @@ li a {
 .about-me-content {
   min-height: 350px;
   padding: 0px 50px;
+  margin: 50px 0;
   line-height: 32px; }
   .about-me-content .row .col-md-8 {
     text-align: center; }
