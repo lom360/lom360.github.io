@@ -83,7 +83,7 @@ li a {
   text-align: center;
   color: #efefef; }
   .my-works .red-box {
-    background-color: #fd6097;
+    background-color: #d0395f;
     min-height: 375px;
     padding: 20px 45px 0px; }
     .my-works .red-box .box-header {
@@ -101,15 +101,15 @@ li a {
         border-radius: 50px;
         display: inline-block;
         font-size: 20px;
-        background-color: #60cefd;
+        background-color: #3982d0;
         color: #efefef; }
         .my-works .red-box .box-button a:hover {
           text-decoration: none;
           font-weight: 700;
-          background-color: #60cefd;
+          background-color: #3982d0;
           border-color: #efefef; }
   .my-works .blue-box {
-    background-color: #60cefd;
+    background-color: #3982d0;
     min-height: 375px;
     padding: 20px 45px 0px; }
     .my-works .blue-box .box-header {
@@ -127,12 +127,12 @@ li a {
         border-radius: 50px;
         display: inline-block;
         font-size: 20px;
-        background-color: #fd6097;
+        background-color: #d0395f;
         color: #efefef; }
         .my-works .blue-box .box-button a:hover {
           text-decoration: none;
           font-weight: 700;
-          background-color: #fd6097;
+          background-color: #d0395f;
           border-color: #efefef; }
 
 /*# sourceMappingURL=style.css.map */
