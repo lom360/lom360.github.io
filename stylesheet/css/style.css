@@ -69,12 +69,13 @@ li a {
   .about-me-content .row .col-md-8 {
     text-align: center; }
   .about-me-content .about-me-top .my-image {
-    height: 160px;
-    width: 200px;
+    height: 175px;
+    width: 18%;
+    min-width: 200px;
     text-align: center; }
     .about-me-content .about-me-top .my-image img {
-      height: inherit;
-      width: 160px;
+      height: 80%;
+      width: 80%;
       border-radius: 100%; }
   .about-me-content p {
     margin-top: 10px; }
