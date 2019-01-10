@@ -5,6 +5,39 @@ $transparent-black: rgba(30, 30, 30, 0.5);
 $my-hero-link: url('../../assets/images/lake-view.jpg');
 
 // This mixin will be applied in my-works section.
+// @mixin column-colors($main-color, $secondary-color){
+//     background-color: $main-color;
+//     min-height: 375px;
+//     padding: 20px 45px 0px;
+//     .box-header {
+//         min-height: 75px;
+//     }
+//     .box-paragraph {
+//         min-height: 185px;
+//         line-height: 28px;
+//     }
+//     .box-button {
+//         height: 100px;
+//         a {
+//             width: 175px;
+//             height: 65px;
+//             padding-top: 15px;
+//             border: 5px solid transparent;
+//             border-radius: 50px;
+//             display:inline-block;
+//             font-size: 20px;
+//             background-color: $secondary-color;
+//             color: $primary-color;
+//             &:hover, {
+//                 text-decoration: none;
+//                 font-weight: 700;
+//                 background-color: $secondary-color;
+//                 border-color: $primary-color;
+//             }
+//         }
+//     }
+// }
+
 @mixin column-colors($main-color, $secondary-color){
     background-color: $main-color;
     min-height: 375px;
@@ -57,7 +90,7 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     display: inline-block;
     font-family: "Gill Sans", sans-serif;
 }
