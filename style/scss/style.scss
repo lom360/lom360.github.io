@@ -12,6 +12,15 @@ nav {
     z-index: 1;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.nav-background {
+    background-color: rgba(3, 3, 3, 0.5);
+}
+
 .hero-background {
     background: linear-gradient(
       rgba(3, 3, 3, 0.5), 

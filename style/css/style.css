@@ -3,6 +3,13 @@ nav {
   top: 100px;
   z-index: 1; }
 
+.sticky {
+  position: sticky;
+  top: 0; }
+
+.nav-background {
+  background-color: rgba(3, 3, 3, 0.5); }
+
 .hero-background {
   background: linear-gradient(rgba(3, 3, 3, 0.5), rgba(3, 3, 3, 0.5)), url(../../assets/images/lake-view.jpg);
   background-repeat: no-repeat;
