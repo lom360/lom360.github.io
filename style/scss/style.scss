@@ -12,10 +12,8 @@ $complimentary-blue: #3a96e0;
       rgba(3, 3, 3, 0.5)), url(../../assets/images/lake-view.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: right top;
+    background-attachment: fixed;
+    background-position: center center;
     height: 100vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
+    width: 100%;
 }
